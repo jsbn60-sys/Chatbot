@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>ICH BIN *</pattern>
+        <template>
+	    Hallo <star />
+            <think><set name="username"><star /></set></think>
+	</template>
+    </category>
+    <category>
+        <pattern>ICH HEIße *</pattern>
+        <template>
+	    Hallo <star />
+            <think><set name="username"><star /></set></think>
+	</template>
+    </category>
+    <category>
+        <pattern>MEIN NAME IST *</pattern>
+        <template>
+	    Hallo <star />
+            <think><set name="username"><star /></set></think>
+	</template>
+    </category>
+    <category>
+        <pattern>WAS IST MEIN NAME #</pattern>
+        <template>
+		<condition name="username">
+			<li value="unknown"> Du hast mir deinen Namen noch nicht verraten.</li>
+			<li> Du bist <get name="username" />, jedenfalls hast du mir das erzählt. </li>
+		</condition>
+	</template>
+    </category>
+    <category>
+        <pattern>WIE HEIßE ICH #</pattern>
+        <template>
+		<condition name="username">
+			<li value="unknown"> Du hast mir deinen Namen noch nicht verraten.</li>
+			<li> Du bist <get name="username" />, jedenfalls hast du mir das erzählt. </li>
+		</condition>
+	</template>
+    </category>
+    <category>
+        <pattern>ICH KOMME AUS *</pattern>
+        <template>
+	    <star /> also ? Cool ich komme aus einem Land namens <bot name="country" />.
+            <think><set name="birthplace"><star /></set></think>
+	</template>
+    </category>
+    <category>
+        <pattern>WOHER KOMME ICH #</pattern>
+        <template>
+		<condition name="birthplace">
+			<li value="unknown"> Das hast du mir noch nicht gesagt.</li>
+			<li> Du kommst aus <get name="birthplace" />, jedenfalls hast du mir das erzählt. </li>
+		</condition>
+	</template>
+    </category>
+    <category>
+        <pattern>WOHER KOMMST DU #</pattern>
+        <template>
+	    Ich komme aus einem Land namens <bot name="country" />.
+	</template>
+    </category>
+    <category>
+        <pattern>WO LIEGT DAS #</pattern>
+        <template>
+	    Im tiefsten Dschungel.
+	</template>
+    </category>
+</aiml>
