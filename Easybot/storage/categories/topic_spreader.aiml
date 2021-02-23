@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>*</pattern>
+        <template>
+		    <condition name="topic">
+			    <li value="unknown"></li>
+                <li value="CHOOSING TOPIC"></li>
+			    <li> Genug von <get name="topic" />, lass mal das Thema wechseln.</li>
+		    </condition>
+            <random>
+                <li>Willst du über Sport reden ?<think><set name="topic_tmp">Sport</set></think></li>
+                <li>Willst du über Autos reden ?<think><set name="topic_tmp">Autos</set></think></li>
+                <li>Willst du über KI reden ?<think><set name="topic_tmp">KI</set></think></li>
+            </random>
+            <think><set name="topic">CHOOSING TOPIC</set></think>
+        </template>
+    </category>
+    <category>
+        <pattern>WORÜBER REDEN WIR #</pattern>
+        <template>
+            <condition name="topic">
+                <li value="CHOOSING TOPIC">Gerade über nichts, aber ich rede gerne über Sport, Autos oder KI.</li>
+                <li>Wir haben gerade über <get name="topic" /> geredet.</li>
+            </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>LASS UNS ÜBER * REDEN #</pattern>
+        <template>
+            <think><set name="topic_tmp"><star /></set></think>
+                <condition name="topic_tmp">
+			        <li value="Sport">Okay, super ich mag Basketball.<think><set name="topic">Sport</set></think></li>
+                    <li value="Autos">Okay, super ich mag Sportwagen.<think><set name="topic">Autos</set></think></li>
+			        <li value="KI">Okay, super da kann ich bestimmt helfen.<think><set name="topic">KI</set></think></li>
+                    <li>In dem Thema bin ich nicht so stark, wie wäre es mit Sport, Autos oder KI ?</li>
+		        </condition>
+        </template>
+    </category>
+    <topic name="CHOOSING TOPIC">
+        <category>
+            <pattern><set name="confirmation" /> #</pattern>
+            <template>
+                <condition name="topic_tmp">
+			        <li value="Sport">Okay, super ich mag Basketball.<think><set name="topic">Sport</set></think></li>
+                    <li value="Autos">Okay, super ich mag Sportwagen.<think><set name="topic">Autos</set></think></li>
+			        <li value="KI">Okay, super da kann ich bestimmt helfen.<think><set name="topic">KI</set></think></li>
+		        </condition>
+            </template>
+        </category>
+        <category>
+            <pattern><set name="denial" /> #</pattern>
+            <template>
+                <condition name="topic_tmp">
+			        <li value="Sport">Okay, wie wäre es mit Autos ?<think><set name="topic_tmp">Autos</set></think></li>
+                    <li value="Autos">Okay, wie wäre es mit KI ?<think><set name="topic_tmp">KI</set></think></li>
+			        <li value="KI">Okay, wie wäre es mit Sport.<think><set name="topic_tmp">Sport</set></think></li>
+		        </condition>
+            </template>
+        </category>
+    </topic>
+</aiml>

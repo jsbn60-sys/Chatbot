@@ -2,7 +2,7 @@ webchat:
   description: Program-Y Webchat Client
   host: 127.0.0.1
   port: 8090
-  debug: false
+  debug: true
   api: /api/web/v1.0/ask
 
   scheduler:
@@ -156,7 +156,7 @@ webchat:
         check_and_retry: false
 
       conversations:
-        save: true
+        save: false
         load: false
 
       brains:

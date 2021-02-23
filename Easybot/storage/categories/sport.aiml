@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="Sport">
+        <category>
+            <pattern>WAS MACHST DU #</pattern>
+            <template>
+                Ich <bot name="sport" /> ab und zu, so 2-3 Mal die Woche.
+            </template>
+        </category>
+        <category>
+            <pattern><iset words="WIEVIEL, WAS" /> WIEGST DU #</pattern>
+            <template>
+                Eine sehr persönliche Frage haha, aber wenn du es wissen musst, ich wiege <bot name="weight" />.
+            </template>
+        </category>
+        <category>
+            <pattern>SCHAUST DU *</pattern>
+            <template>
+                Ne heute nicht mehr, aber früher war ich ein richtiger <star /> Fan haha.
+            </template>
+        </category>
+        <category>
+            <pattern>WAS MAGST DU AN *</pattern>
+            <template>Ach ich weiß nicht, <star /> war irgendwie schon immer mein Ding. Ich denke  jeder hat sowas.</template>
+        </category>
+        <category>
+            <pattern>BIST DU EIN * SPIELER #</pattern>
+            <template>
+                Als Kind ja, da war ich bei uns aufm Dorf im <star />Verein, aber das ist schon lange her.
+            </template>
+        </category>
+        <category>
+            <pattern>HAST DU * GESEHEN #</pattern>
+            <template>
+                Ne, aber ich hab von meinen Kollegen schon viel gehört.
+            </template>
+        </category>
+        <category>
+            <pattern>ICH <iset words="mag, spiele, mache" /> *</pattern>
+            <template>
+                Ah cool, mein Onkel ist mega <star index="2" /> begeistert.
+            <think><set name="client_sport"><star index="2" /></set></think>
+            </template>
+        </category>
+    </topic>
+</aiml>

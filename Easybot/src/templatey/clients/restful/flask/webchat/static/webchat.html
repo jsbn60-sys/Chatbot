@@ -1,67 +1,130 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-	<head>
-        <title>Y-Bot Chat Window</title>
-		<meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link type="text/css" rel="stylesheet" href="static/style.css" />
-    </head>
+<head>
+    <title>Y-Bot Chat Window</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="static/style.css"/>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet"/>
+</head>
 
-  <body>
+<body>
 
-    <header>
-  	<h1>Welcome to Program-Y Template Webchat</h1>
+<header>
+    <h1>Welcome to Program-Y Template Webchat</h1>
     <h3>A template for a webchat client for use with Program-y</h3>
-    </header>
+</header>
 
-  	<div class="columnsContainer">
+<div class="columnsContainer">
 
-	  	<div class="leftColumn">
+    <div class="leftColumn">
 
-            <div id="formwrapper">
-                <div id="menu">
-                    <p class="welcome">Chat Window<b></b></p>
-                    <div style="clear:both"></div>
+        <div id="formwrapper">
+            <div class="container bootstrap snippets bootdey">
+                <div class="row" style="padding-top: 15%">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="portlet portlet-default">
+                            <div class="portlet-heading">
+                                <div class="portlet-title">
+                                    <h4><i class="fa fa-circle text-green"></i>Easybot</h4>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="chat" class="panel-collapse collapse in">
+                                <div>
+                                    <div class="portlet-body chat-widget"
+                                         style="overflow-y: auto; width: auto; height: 300px;">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <p class="text-center text-muted small">January 1, 2014 at 12:23 PM</p>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                            <div id="chatbox">
+
+                                            </div>
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div class="portlet-footer">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <textarea class="form-control" placeholder="Enter message..."></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-default pull-right">Send</button>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.col-md-4 -->
+                    </div>
                 </div>
-
-                <div id="chatbox"></div>
-
-                <form name="message" action="">
-                    <input name="usermsg" type="text" id="usermsg" size="63" />
-                    <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
-                </form>
             </div>
-	  	</div>
 
-	  	<div class="rightColumn">
-            <div id="questionswrapper">
-    	  		<p class="welcome">Popular Questions<b></b></p>
-                <ul>
-                    <li class="question"><a href="#">Who are you?</a></li>
-                    <li class="question"><a href="#">What are you?</a></li>
-                    <li class="question"><a href="#">Where are you?</a></li>
-                    <li class="question"><a href="#">What do you know?</a></li>
-                    <li class="question"><a href="#">Who created you?</a></li>
-                    <li class="question"><a href="#">How old are you?</a></li>
-                    <li class="question"><a href="#">How big is your brain?</a></li>
-                </ul>
+            <form name="message" action="">
+                <input name="usermsg" type="text" id="usermsg" size="63"/>
+                <input name="submitmsg" type="submit" id="submitmsg" value="Send"/>
+            </form>
+        </div>
+    </div>
+
+    <div class="rightColumn">
+        <div id="questionswrapper">
+            <p class="welcome">Popular Questions<b></b></p>
+            <ul>
+                <li class="question"><a href="#">Who are you?</a></li>
+                <li class="question"><a href="#">What are you?</a></li>
+                <li class="question"><a href="#">Where are you?</a></li>
+                <li class="question"><a href="#">What do you know?</a></li>
+                <li class="question"><a href="#">Who created you?</a></li>
+                <li class="question"><a href="#">How old are you?</a></li>
+                <li class="question"><a href="#">How big is your brain?</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <a href="https://github.com/keiffster/program-y">Program-Y on GitHub</a> |
+    <a href="https://github.com/keiffster/program-y/wiki">Documentation</a> |
+    <a href="http://www.keithsterling.com">Meet the Author</a> |
+    <a href="http://servusai.com">Professional Services</a>
+</footer>
+
+
+<div class="row" hidden id="message_template">
+    <div class="col-lg-12">
+        <div class="media">
+            <a class="pull-left" href="#">
+                <img class="media-object img-circle img-chat" src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                     alt="">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">Jane Smith
+                    <span class="small pull-right">12:23 PM</span>
+                </h4>
+                <p>Hi, I wanted to make sure you got the latest product report. Did Roddy get it to you?</p>
             </div>
-	  	</div>
+        </div>
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
 
-  	</div>
 
-    <footer>
-        <a href="https://github.com/keiffster/program-y">Program-Y on GitHub</a> |
-        <a href="https://github.com/keiffster/program-y/wiki">Documentation</a> |
-        <a href="http://www.keithsterling.com">Meet the Author</a> |
-        <a href="http://servusai.com">Professional Services</a>
-  	</footer>
+</script>
 
-    <script type="text/javascript" src="static/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="static/y-bot.js"></script>
+<script type="text/javascript" src="static/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="static/y-bot.js"></script>
 
-  </body>
-
+</body>
 </html>
