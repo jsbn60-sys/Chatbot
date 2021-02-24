@@ -204,6 +204,8 @@ webchat:
             DuckDuckGo:
               classname: programy.services.duckduckgo.DuckDuckGoService
               url: http://api.duckduckgo.com
+            myservice:
+              classname: programy.services.MyService.MyService
 
           security:
             authentication:
