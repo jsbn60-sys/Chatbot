@@ -8,9 +8,15 @@
             </template>
         </category>
         <category>
-            <pattern>WIE FINDEST DU *</pattern>
+            <pattern><set name="ask_opinion" />*</pattern>
             <template>
                 Ich betrachte Autos immer mit Blick in die Zukunft. <star /> scheint mir da einfach das richtige zu sein.
+            </template>
+        </category>
+        <category>
+            <pattern><set name="ask_positive_opinion_reason" />*</pattern>
+            <template>
+                Ich bin mit <star index="2" /> aufgewachsen, ist einfach ne Präferenz. :)
             </template>
         </category>
         <category>

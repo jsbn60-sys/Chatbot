@@ -5,12 +5,8 @@
         <template>Hallo</template>
     </category>
     <category>
-        <pattern>WAS IST DEIN NAME #</pattern>
+        <pattern><set name="ask_name" />#</pattern>
         <template>Mein Name ist <bot name="name" />.</template>
-    </category>
-    <category>
-        <pattern>WER BIST DU #</pattern>
-  	<template>Mein Name ist <bot name="name" />.</template> 
     </category>
     <category>
         <pattern>WAS MACHST DU #</pattern>
@@ -51,5 +47,9 @@
 <category>
     <pattern>WIE FUNKTIONIERST DU #</pattern>
     <template>Ich wurde mit AIML, der "Artifical Intelligence Markup Language", erschaffen.</template>
+</category>
+<category>
+    <pattern><iset words="WER, WAS" /> IST *</pattern>
+    <template>Warte, ich les mich kurz ein: <sraix service="myservice"><star index="2" /></sraix></template>
 </category>
 </aiml>

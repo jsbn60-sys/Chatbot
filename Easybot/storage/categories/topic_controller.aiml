@@ -4,15 +4,28 @@
         <pattern>*</pattern>
         <template>
 		    <condition name="topic">
-			    <li value="unknown"></li>
-                <li value="CHOOSING TOPIC"></li>
-			    <li> Genug von <get name="topic" />, lass mal das Thema wechseln.</li>
+                <li value="*">
+                    <random>
+                        <li>Willst du über Sport reden ?<think><set name="topic_tmp">Sport</set></think></li>
+                        <li>Willst du über Autos reden ?<think><set name="topic_tmp">Autos</set></think></li>
+                        <li>Willst du über KI reden ?<think><set name="topic_tmp">KI</set></think></li>
+                    </random>
+                </li>
+                <li value="CHOOSING TOPIC">
+                    <random>
+                        <li>Willst du über Sport reden ?<think><set name="topic_tmp">Sport</set></think></li>
+                        <li>Willst du über Autos reden ?<think><set name="topic_tmp">Autos</set></think></li>
+                        <li>Willst du über KI reden ?<think><set name="topic_tmp">KI</set></think></li>
+                    </random>
+                </li>
+			    <li> Genug von <get name="topic" />, lass mal das Thema wechseln.
+                    <condition name="topic">
+                        <li value="Sport">Wie wäre es mit Autos ?<think><set name="topic_tmp">Autos</set></think></li>
+                        <li value="Autos">Wie wäre es mit KI ?<think><set name="topic_tmp">KI</set></think></li>
+                        <li value="KI">Wie wäre es mit Sport.<think><set name="topic_tmp">Sport</set></think></li>
+                    </condition>
+                </li>
 		    </condition>
-            <random>
-                <li>Willst du über Sport reden ?<think><set name="topic_tmp">Sport</set></think></li>
-                <li>Willst du über Autos reden ?<think><set name="topic_tmp">Autos</set></think></li>
-                <li>Willst du über KI reden ?<think><set name="topic_tmp">KI</set></think></li>
-            </random>
             <think><set name="topic">CHOOSING TOPIC</set></think>
         </template>
     </category>

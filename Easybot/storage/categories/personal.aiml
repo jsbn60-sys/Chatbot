@@ -44,6 +44,7 @@
     <category>
         <pattern>WAS WEIßT DU ÜBER MICH #</pattern>
         <template>
+		Hm.
         <condition name="username">
 			<li value="unknown"></li>
 			<li> Du bist <get name="username" />. </li>
