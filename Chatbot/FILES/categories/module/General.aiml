@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category>
+        <pattern>Ist <set>Module<s/set> ein Modul</pattern>
+        <template>
+            Ja, <star/> ist ein Modul.
+        </template>
+    </category>
+
+    <category>
+        <pattern>Ist * ein Modul</pattern>
+        <pattern>Kennst du das Modul *</pattern>
+        <template>
+            Das Modul <star/> ist mir leider nicht bekannt.
+        </template>
+    </category>
+
+    <category>
+        <pattern><set>VorModul</set>MODUL (Name und Kennung)<set>NachModul</set></pattern>
+        <template>
+            INFOS
+        </template>
+    </category>
+
+
+ </aiml>
