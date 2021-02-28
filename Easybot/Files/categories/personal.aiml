@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern><set name="introduction" /> *</pattern>
+        <template>
+	        Hallo <star index="2" />
+            <think><set name="username"><star index="2"/></set></think>
+	    </template>
+    </category>
+    <category>
+        <pattern>WAS IST MEIN NAME #</pattern>
+        <template>
+		<condition name="username">
+			<li value="unknown"> Du hast mir deinen Namen noch nicht verraten.</li>
+			<li> Du bist <get name="username" />, jedenfalls hast du mir das erzählt. </li>
+		</condition>
+	</template>
+    </category>
+    <category>
+        <pattern>WIE HEIßE ICH #</pattern>
+        <template>
+		<condition name="username">
+			<li value="unknown"> Du hast mir deinen Namen noch nicht verraten.</li>
+			<li> Du bist <get name="username" />, jedenfalls hast du mir das erzählt. </li>
+		</condition>
+	</template>
+    </category>
+    <category>
+        <pattern>ICH KOMME AUS *</pattern>
+        <template>
+	    <star /> also ? Cool ich komme aus <bot name="country" />.
+            <think><set name="birthplace"><star /></set></think>
+	</template>
+    </category>
+    <category>
+        <pattern>WOHER KOMME ICH #</pattern>
+        <template>
+		<condition name="birthplace">
+			<li value="unknown"> Das hast du mir noch nicht gesagt.</li>
+			<li> Du kommst aus <get name="birthplace" />, jedenfalls hast du mir das erzählt. </li>
+		</condition>
+	</template>
+    </category>
+    <category>
+        <pattern>WAS WEIßT DU ÜBER MICH #</pattern>
+        <template>
+		Hm.
+        <condition name="username">
+			<li value="unknown"></li>
+			<li> Du bist <get name="username" />. </li>
+		</condition>
+		<condition name="birthplace">
+			<li value="unknown"></li>
+			<li>Du hast mir erzählt, du kommst aus <get name="birthplace" />.</li>
+		</condition>
+        <condition name="client_car">
+			<li value="unknown"></li>
+			<li>Zurzeit fährst du einen <get name="client_car" />.</li>
+		</condition>
+        <condition name="client_sport">
+			<li value="unknown"></li>
+			<li>Du meintest du magst <get name="client_sport" />.</li>
+		</condition>
+	</template>
+    </category>
+</aiml>

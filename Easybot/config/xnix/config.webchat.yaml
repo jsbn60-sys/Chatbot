@@ -1,6 +1,6 @@
 webchat:
   description: Program-Y Webchat Client
-  host: 127.0.0.1
+  host: 195.62.33.141
   port: 8090
   debug: true
   api: /api/web/v1.0/ask

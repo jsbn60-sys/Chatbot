@@ -1,0 +1,173 @@
+{
+    "client_context": {
+        "clientid": "sanic",
+        "userid": "1234567890",
+        "botid": "bot",
+        "brainid": "brain",
+        "depth": 0
+    },
+    "questions": [
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hi"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hallo"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Corona"
+                    ],
+                    "response": "Aktuell sind alle Zug\u00e4nge zur THM geschlossen, aktuell werden alle Lehrveranstaltungen Online gestaltet. Die THM gibt ihr bestes alle Klausuren unter Hygieneauflagen in Pr\u00e4senz zu schreiben. Noch weitere Fragen zu Corona? Schau mal hier: https://www.thm.de/site/corona-info.html1",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "28/02/2021, 20:24:20",
+                        "sentence": "Corona",
+                        "response": "Aktuell sind alle Zug\u00e4nge zur THM geschlossen, aktuell werden alle Lehrveranstaltungen Online gestaltet. Die THM gibt ihr bestes alle Klausuren unter Hygieneauflagen in Pr\u00e4senz zu schreiben. Noch weitere Fragen zu Corona? Schau mal hier: https://www.thm.de/site/corona-info.html1",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [^]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Corona]",
+                                "words": [
+                                    "Corona"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [^]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "de",
+                                    "verweisen"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hi"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hi"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hi"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hi"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        }
+    ],
+    "max_histories": 100,
+    "properties": {
+        "topic": "*",
+        "positivity": "0.0",
+        "subjectivity": "0.5"
+    }
+}
