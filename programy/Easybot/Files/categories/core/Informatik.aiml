@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+    <category>
+        <pattern>* <set>1Semester</set> * </pattern>
+        <template>
+            Im ersten Semester solltest du folgende Module belegen:
+            CS1013 Objektorientierte Programmierung \n /n
+            cs1014 Grundlagen der Informatik
+            CS2319 Rechnernetze und Einführung in verteilte Systeme
+            MN1007 Diskrete Mathematik
+            MN1008 Naturwissenschaftliche und technische Grundlagen
+        </template>
+    </category>
+
+    <category>
+        <pattern>*<set>2Semester</set>*</pattern>
+        <template>
+            Im zweiten Semester solltest du folgende Module belegen:
+            CS1016 Programmierung interaktiver Systeme
+            CS1017 Algorithmen und Datenstrukturen
+            BA1004 DV-orientierte Betriebswirtschaftslehre
+            SK1005 Recht für Informatikerinnen/Informatiker
+            MN1009 Lineare Algebra
+            CS1024 Webbasierte Systeme
+        </template>
+
+    </category>
+    <category>
+        <pattern>*<set>3Semester</set>*</pattern>
+        <template>
+            Im dritten Semester solltest du folgende Module belegen:
+            CS1016 Konzepte systemnaher Programmierung
+            CS1017 Compilerbau
+            BA1004 Datenbanksysteme
+            SK1005 Softwaretechnik
+            MN1009 Statistik und Datenanalyse
+        </template>
+    </category>
+    <category>
+        <pattern>*<set>4Semester</set>*</pattern>
+        <template>
+            Im ersten Semester solltest du folgende Module belegen:
+            CS1016 Betriebssysteme
+            CS1017 Softwaretechnik-Projekt
+            BA1004 Wissenschaftliches Arbeiten in der Informatik
+             Wahlpflichtmodul
+             Wahlpflichtmodul
+        </template>
+    </category>
+    <category>
+        <pattern>*<set>5Semester</set>*</pattern>
+        <template>
+            Im Fünften Semester solltest du folgende Module belegen:
+            Projektmanagement
+            Wahlpflichtmodul
+            Wahlpflichtmodul
+            Wahlpflichtmodul
+            Wahlpflichtmodul Praktikum
+            Hauptseminar
+        </template>
+    </category>
+    <category>
+        <pattern>*<set>6Semester</set>*</pattern>
+        <template>
+            Projektphase
+            Projektseminar
+            Bachelorarbeit mit Kolloquium
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>Was lernt man im Informatikstudium</pattern>
+        <template>
+            Als Informatiker/-in haben Sie Kenntnisse von soliden wissenschaftlichen Grundlagen im Bereich der Informatik, insbesondere im Hinblick auf Tätigkeiten in der Software-Entwicklung. Sie haben gute Berufschancen, die Übernahmequote nach dem Studium ist sehr hoch: Informatikerinnen und Informatiker werden in vielen verschiedenen Berufsfeldern gesucht. Es gibt kaum noch einen Bereich, der ohne die Informatik auskommt. Ob nun in der Automobil-Branche oder der Software-Industrie, in Forschungsinstituten oder in IT-Abteilungen großer Unternehmen - durch die zunehmende Digitalisierung werden Informatiker/-innen in fast jedem Berufsfeld gebraucht.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>Wie viele Studenten studierenden </pattern>
+        <template>
+            Robert Schmidtt
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>BI1017</pattern>
+            <template>
+            testssss
+            </template>
+    </category>
+
+
+
+
+
+
+<category><pattern><set>VorModul</set>Algorithmen auf Sequenzen<set>NachModul</set></pattern><template>Modulname: Algorithmen auf Sequenzen   --Modulnummer:BI1017</template></category>
+<category><pattern><set>VerantwortlichModul</set>BI1017<set>NachModul</set></pattern><template>Modulname: Algorithmen auf Sequenzen --Modulverantwortliche/r: Prof. Dr. Andreas Gogol-D�ring</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>BI1017<set>NachModul</set></pattern><template>Modulname: Algorithmen auf Sequenzen--Kurzbeschreibung: Grundlegende Methoden f�r das Suchen, Vergleichen, Alignieren und Assemblieren von Sequenzdaten.</template></category>
+<category><pattern><set>AufwandMOdul</set>BI1017<set>NachModul</set></pattern><template>Modulname: Algorithmen auf Sequenzen  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>BI1017<set>NachModul</set></pattern><template>Modulname: Algorithmen auf Sequenzen  --Voraussetzungen: CS1017 Algorithmen und Datenstrukturen,
+Programmiererfahrung in einer Skriptsprache</template></category>
+<category><pattern><set>VorModul</set>Algorithmen der Bioinformatik<set>NachModul</set></pattern><template>Modulname: Algorithmen der Bioinformatik   --Modulnummer:BI2001</template></category>
+<category><pattern><set>VerantwortlichModul</set>BI2001<set>NachModul</set></pattern><template>Modulname: Algorithmen der Bioinformatik --Modulverantwortliche/r: Prof. Dr. Andreas Peter Dominik</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>BI2001<set>NachModul</set></pattern><template>Modulname: Algorithmen der Bioinformatik--Kurzbeschreibung: Das Modul f�hrt in die Funktionsweise der wichtigsten Algorithmen der Bioinformatik ein. Anhand von anwendungsnahen Beispielen werden M�glichkeiten und Grenzen der Algorithmen verdeutlicht.</template></category>
+<category><pattern><set>AufwandMOdul</set>BI2001<set>NachModul</set></pattern><template>Modulname: Algorithmen der Bioinformatik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>BI2001<set>NachModul</set></pattern><template>Modulname: Algorithmen der Bioinformatik  --Voraussetzungen: MN1017 Statistik und Datenanalyse
+CS1021 Softwaretechnik</template></category>
+<category><pattern><set>VorModul</set>Algorithmen f�r Computerspiele<set>NachModul</set></pattern><template>Modulname: Algorithmen f�r Computerspiele   --Modulnummer:CS2345</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2345<set>NachModul</set></pattern><template>Modulname: Algorithmen f�r Computerspiele --Modulverantwortliche/r: Prof. Dr. Andreas Gogol-D�ring</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2345<set>NachModul</set></pattern><template>Modulname: Algorithmen f�r Computerspiele--Kurzbeschreibung: Das Modul befasst sich mit theoretischen, algorithmischen, technischen Methoden, die f�r die Analyse, die Programmierung oder dem Design von Computerspielen verwendet werden k�nnen. Dabei liegt der Schwerpunkt auf den Themen Strategie und der Modellierung K�nstlicher Intelligenz.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2345<set>NachModul</set></pattern><template>Modulname: Algorithmen f�r Computerspiele  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2345<set>NachModul</set></pattern><template>Modulname: Algorithmen f�r Computerspiele  --Voraussetzungen: Gute Programmierkenntnisse
+CS1017 Algorithmen und Datenstrukturen</template></category>
+<category><pattern><set>VorModul</set>Algorithmen und Datenstrukturen<set>NachModul</set></pattern><template>Modulname: Algorithmen und Datenstrukturen   --Modulnummer:CS1017</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1017<set>NachModul</set></pattern><template>Modulname: Algorithmen und Datenstrukturen --Modulverantwortliche/r: Prof. Dr. Andreas Gogol-D�ring</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1017<set>NachModul</set></pattern><template>Modulname: Algorithmen und Datenstrukturen--Kurzbeschreibung: Algorithmen, deren Eigenschaften und zugrundeliegenden Datenstrukturen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1017<set>NachModul</set></pattern><template>Modulname: Algorithmen und Datenstrukturen  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1017<set>NachModul</set></pattern><template>Modulname: Algorithmen und Datenstrukturen  --Voraussetzungen: f�r Bachelor Informatik, Bachelor Ingenieur-Informatik, Bachelor Bioinformatik: CS1013 Objektorientierte Programmierung, CS1014 Grundlagen der Informatik
+f�r Bachelor Social Media Systems: IT1002 Webbasierte Programmierung 2</template></category>
+<category><pattern><set>VorModul</set>Analysis und numerische Methoden<set>NachModul</set></pattern><template>Modulname: Analysis und numerische Methoden   --Modulnummer:MN1011</template></category>
+<category><pattern><set>VerantwortlichModul</set>MN1011<set>NachModul</set></pattern><template>Modulname: Analysis und numerische Methoden --Modulverantwortliche/r: Prof. Dr. Berthold Franzen</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>MN1011<set>NachModul</set></pattern><template>Modulname: Analysis und numerische Methoden--Kurzbeschreibung: Differential- und Integralrechnung, komplexe Zahlen, Forurier-Transformation, numerische Methoden.</template></category>
+<category><pattern><set>AufwandMOdul</set>MN1011<set>NachModul</set></pattern><template>Modulname: Analysis und numerische Methoden  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>MN1011<set>NachModul</set></pattern><template>Modulname: Analysis und numerische Methoden  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Android-Praktikum: Anwendungsentwicklung<set>NachModul</set></pattern><template>Modulname: Android-Praktikum: Anwendungsentwicklung   --Modulnummer:CS2012</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2012<set>NachModul</set></pattern><template>Modulname: Android-Praktikum: Anwendungsentwicklung --Modulverantwortliche/r: Sebastian S��</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2012<set>NachModul</set></pattern><template>Modulname: Android-Praktikum: Anwendungsentwicklung--Kurzbeschreibung: In diesem Modul werden die Grundlagen der Plattform und das Anwendungsprogrammiermodell von Android vermittelt.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2012<set>NachModul</set></pattern><template>Modulname: Android-Praktikum: Anwendungsentwicklung  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2012<set>NachModul</set></pattern><template>Modulname: Android-Praktikum: Anwendungsentwicklung  --Voraussetzungen: CS1013 Objektorientierte Programmierung
+Gute Java-Kenntnisse</template></category>
+<category><pattern><set>VorModul</set>Architekturen von Webservices<set>NachModul</set></pattern><template>Modulname: Architekturen von Webservices   --Modulnummer:IT2001</template></category>
+<category><pattern><set>VerantwortlichModul</set>IT2001<set>NachModul</set></pattern><template>Modulname: Architekturen von Webservices --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>IT2001<set>NachModul</set></pattern><template>Modulname: Architekturen von Webservices--Kurzbeschreibung: Diese Veranstaltung vermittelt vertiefte Grundlagen und Anwendungen zur serverseitigen Webprogrammierung.</template></category>
+<category><pattern><set>AufwandMOdul</set>IT2001<set>NachModul</set></pattern><template>Modulname: Architekturen von Webservices  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>IT2001<set>NachModul</set></pattern><template>Modulname: Architekturen von Webservices  --Voraussetzungen: f�r Bachelor Informatik und Bachelor Ingenieur-Informatik
+CS1020 Datenbanksysteme
+CS1024 Webbasierte Systeme
+f�r Bachelor Social Media Systems:
+IT1002 Webbasierte Programmierung 2</template></category>
+<category><pattern><set>VorModul</set>Auslandssemester+<set>NachModul</set></pattern><template>Modulname: Auslandssemester+   --Modulnummer:SK2013</template></category>
+<category><pattern><set>VerantwortlichModul</set>SK2013<set>NachModul</set></pattern><template>Modulname: Auslandssemester+ --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>SK2013<set>NachModul</set></pattern><template>Modulname: Auslandssemester+--Kurzbeschreibung: Ziel dieses Moduls ist es, den Lernprozess eines studien- oder berufsbezogenen Auslandsaufenthalts zu reflektieren, fachlich aufzuarbeiten, darzustellen und anderen Studierenden mit aktuellen Kommunikationstechniken zug�nglich zu machen. Dazu sollen die Studierenden ihren Auslandaufenthalt bewusst vorbereiten, begleitend dokumentieren, abschlie�end beurteilen und Hilfestellungen f�r zuk�nftige Auslandsstudierende erstellen.</template></category>
+<category><pattern><set>AufwandMOdul</set>SK2013<set>NachModul</set></pattern><template>Modulname: Auslandssemester+  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>SK2013<set>NachModul</set></pattern><template>Modulname: Auslandssemester+  --Voraussetzungen: Abstimmung mit der Studiengangsleiterin oder dem Studiengangsleiter.
+Beendigung des 2. Fachsemesters</template></category>
+<category><pattern><set>VorModul</set>Automaten und formale Sprachen<set>NachModul</set></pattern><template>Modulname: Automaten und formale Sprachen   --Modulnummer:CS2315</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2315<set>NachModul</set></pattern><template>Modulname: Automaten und formale Sprachen --Modulverantwortliche/r: Prof. Dr. Albert Schneider</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2315<set>NachModul</set></pattern><template>Modulname: Automaten und formale Sprachen--Kurzbeschreibung: Beschreibungen und Eigenschaften von regul�ren und kontextfreien Sprachen sowie von Turing-Maschinen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2315<set>NachModul</set></pattern><template>Modulname: Automaten und formale Sprachen  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2315<set>NachModul</set></pattern><template>Modulname: Automaten und formale Sprachen  --Voraussetzungen: MN1007 Diskrete Mathematik</template></category>
+<category><pattern><set>VorModul</set>Bachelorarbeit mit Kolloquium<set>NachModul</set></pattern><template>Modulname: Bachelorarbeit mit Kolloquium   --Modulnummer:CS3006</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS3006<set>NachModul</set></pattern><template>Modulname: Bachelorarbeit mit Kolloquium --Modulverantwortliche/r: Prof. Dr. Burkhardt Renz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS3006<set>NachModul</set></pattern><template>Modulname: Bachelorarbeit mit Kolloquium--Kurzbeschreibung: Die Studierenden wenden die im Studium erworbene Fachkompetenz in einer praktischen Aufgabe an und zeigen damit ihre F�higkeit der �bertragung der Kenntnisse der Informatik auf konkrete Fragestellungen. Sie zeigen, dass sie selbstst�ndig Methoden der Informatik auf praktische Aufgaben anwenden k�nnen. Sie k�nnen diese Umsetzung systematisch reflektieren und darstellen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS3006<set>NachModul</set></pattern><template>Modulname: Bachelorarbeit mit Kolloquium  --Aufwand: Semesterwochenstunden
+2</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS3006<set>NachModul</set></pattern><template>Modulname: Bachelorarbeit mit Kolloquium  --Voraussetzungen: MN1007 Diskrete Mathematik</template></category>
+<category><pattern><set>VorModul</set>Betriebssysteme<set>NachModul</set></pattern><template>Modulname: Betriebssysteme   --Modulnummer:CS1022</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1022<set>NachModul</set></pattern><template>Modulname: Betriebssysteme --Modulverantwortliche/r: Prof. Dr. Andr� Rein</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1022<set>NachModul</set></pattern><template>Modulname: Betriebssysteme--Kurzbeschreibung: In der Veranstaltung werden Grundlagen der Rechnerarchitektur sowie Architektur, Funktionsweise und Programmierschnittstellen moderner Betriebssysteme behandelt und in praktischen Aufgaben exemplarisch vertieft.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1022<set>NachModul</set></pattern><template>Modulname: Betriebssysteme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1022<set>NachModul</set></pattern><template>Modulname: Betriebssysteme  --Voraussetzungen: CS1014 Grundlagen der Informatik
+CS1018 Konzepte systemnaher Programmierung</template></category>
+<category><pattern><set>VorModul</set>Bildverarbeitung und Einf�hrung in die Mustererkennung<set>NachModul</set></pattern><template>Modulname: Bildverarbeitung und Einf�hrung in die Mustererkennung   --Modulnummer:II2002</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2002<set>NachModul</set></pattern><template>Modulname: Bildverarbeitung und Einf�hrung in die Mustererkennung --Modulverantwortliche/r: Prof. Dr. Klaus Rinn</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2002<set>NachModul</set></pattern><template>Modulname: Bildverarbeitung und Einf�hrung in die Mustererkennung--Kurzbeschreibung: Kamera und Beleuchtungstechnik, Bildtransformationen, Bildverarbeitungsfilter, Segmentierung, morphologische Filter. Statistische Mustererkennung: Zusammenhangsanalyse, Merkmalsbestimmung.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2002<set>NachModul</set></pattern><template>Modulname: Bildverarbeitung und Einf�hrung in die Mustererkennung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2002<set>NachModul</set></pattern><template>Modulname: Bildverarbeitung und Einf�hrung in die Mustererkennung  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Bits und B�ume: Digitalisierung nachhaltig gestalten<set>NachModul</set></pattern><template>Modulname: Bits und B�ume: Digitalisierung nachhaltig gestalten   --Modulnummer:SK2022</template></category>
+<category><pattern><set>VerantwortlichModul</set>SK2022<set>NachModul</set></pattern><template>Modulname: Bits und B�ume: Digitalisierung nachhaltig gestalten --Modulverantwortliche/r: Prof. Dr. Dominikus Herzberg</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>SK2022<set>NachModul</set></pattern><template>Modulname: Bits und B�ume: Digitalisierung nachhaltig gestalten--Kurzbeschreibung: In der Veranstaltung geht es um die materiellen Auswirkungen und die gesellschaftlichen Einfl�sse der Informatik auf Natur, Wirtschaft und unsere Demokratie.</template></category>
+<category><pattern><set>AufwandMOdul</set>SK2022<set>NachModul</set></pattern><template>Modulname: Bits und B�ume: Digitalisierung nachhaltig gestalten  --Aufwand: Gesamtaufwand
+6.0 CrP; 90 Stunden, davon etwa 28 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>SK2022<set>NachModul</set></pattern><template>Modulname: Bits und B�ume: Digitalisierung nachhaltig gestalten  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Business Analytics<set>NachModul</set></pattern><template>Modulname: Business Analytics   --Modulnummer:II2019</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2019<set>NachModul</set></pattern><template>Modulname: Business Analytics --Modulverantwortliche/r: Prof. Dr. Christian �berall</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2019<set>NachModul</set></pattern><template>Modulname: Business Analytics--Kurzbeschreibung: In der Veranstaltung lernen die Studierenden den Business Analytics Prozess kennen und wie dieser genutzt wird, um betriebswirtschaftliche Problemstellungen zu l�sen.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2019<set>NachModul</set></pattern><template>Modulname: Business Analytics  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2019<set>NachModul</set></pattern><template>Modulname: Business Analytics  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Code Refactoring<set>NachModul</set></pattern><template>Modulname: Code Refactoring   --Modulnummer:CS2304</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2304<set>NachModul</set></pattern><template>Modulname: Code Refactoring --Modulverantwortliche/r: Prof. Dr. Klaus-Dieter Quibeldey-Cirkel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2304<set>NachModul</set></pattern><template>Modulname: Code Refactoring--Kurzbeschreibung: Der Kurs vermittelt Kenntnisse und Erfahrungswissen �ber Refactoring-Methoden. In �bungen mit Refactoring-Werkzeugen lernen die Studierenden, ihre Code-Produktivit�t zu steigern und die Qualit�t ihres Quellcodes zu verbessern.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2304<set>NachModul</set></pattern><template>Modulname: Code Refactoring  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2304<set>NachModul</set></pattern><template>Modulname: Code Refactoring  --Voraussetzungen: CS1023 Softwaretechnik-Projekt</template></category>
+<category><pattern><set>VorModul</set>Codequalit�t<set>NachModul</set></pattern><template>Modulname: Codequalit�t   --Modulnummer:CS2339</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2339<set>NachModul</set></pattern><template>Modulname: Codequalit�t --Modulverantwortliche/r: Prof. Dr. Hellwig Geisse</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2339<set>NachModul</set></pattern><template>Modulname: Codequalit�t--Kurzbeschreibung: Die Veranstaltung behandelt h�ufige Probleme bei der Entwicklung und Implementierung von Software und vermittelt Wege, zu gutem Code zu gelangen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2339<set>NachModul</set></pattern><template>Modulname: Codequalit�t  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2339<set>NachModul</set></pattern><template>Modulname: Codequalit�t  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Compilerbau<set>NachModul</set></pattern><template>Modulname: Compilerbau   --Modulnummer:CS1019</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1019<set>NachModul</set></pattern><template>Modulname: Compilerbau --Modulverantwortliche/r: Prof. Dr. Uwe Meyer</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1019<set>NachModul</set></pattern><template>Modulname: Compilerbau--Kurzbeschreibung: Die Veranstaltung vermittelt wichtige Konzepte moderner Programmiersprachen und der Entwicklung von Compilern unter Verwendung von Compilergeneratoren.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1019<set>NachModul</set></pattern><template>Modulname: Compilerbau  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1019<set>NachModul</set></pattern><template>Modulname: Compilerbau  --Voraussetzungen: Algorithmen und Datenstrukturen CS1017, Programmierung interaktiver Systeme CS1016</template></category>
+<category><pattern><set>VorModul</set>Computervision<set>NachModul</set></pattern><template>Modulname: Computervision   --Modulnummer:II2017</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2017<set>NachModul</set></pattern><template>Modulname: Computervision --Modulverantwortliche/r: Prof. Dr. Klaus Rinn</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2017<set>NachModul</set></pattern><template>Modulname: Computervision--Kurzbeschreibung: Grundlagen des maschinellen Sehens, konkrete Anwendungen mit Fokus auf autonome Systeme, besonders autonomes Fahren.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2017<set>NachModul</set></pattern><template>Modulname: Computervision  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2017<set>NachModul</set></pattern><template>Modulname: Computervision  --Voraussetzungen: Gute Programmierkenntnisse in C,
+CS1018 Konzepte systemnaher Programmierung</template></category>
+<category><pattern><set>VorModul</set>Containerisierte Anwendungen<set>NachModul</set></pattern><template>Modulname: Containerisierte Anwendungen   --Modulnummer:CS2368</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2368<set>NachModul</set></pattern><template>Modulname: Containerisierte Anwendungen --Modulverantwortliche/r: Prof. Dr. Klaus-Dieter Quibeldey-Cirkel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2368<set>NachModul</set></pattern><template>Modulname: Containerisierte Anwendungen--Kurzbeschreibung: F�r eine optimale Auslastung von Hardware-Ressourcen wird h�ufig Virtualisierung eingesetzt. Containerisierung bildet dabei eine besondere Form der Virtualisierung. Containerisierte Anwendungen lassen sich leicht ver�ffentlichen, skalieren und sind in hohem Ma�e unabh�ngig von der eingesetzten Hard- und Software. Eines der verbreitetsten Tools f�r Containerisierung ist Docker.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2368<set>NachModul</set></pattern><template>Modulname: Containerisierte Anwendungen  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2368<set>NachModul</set></pattern><template>Modulname: Containerisierte Anwendungen  --Voraussetzungen: Wahlpflichtmodul: Bachelor Informatik, Bachelor Ingenieur-Informatik, Bachelor Social Media Systems</template></category>
+<category><pattern><set>VorModul</set>Content Management Systeme: Konzepte und Realisierung<set>NachModul</set></pattern><template>Modulname: Content Management Systeme: Konzepte und Realisierung   --Modulnummer:CS2327</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2327<set>NachModul</set></pattern><template>Modulname: Content Management Systeme: Konzepte und Realisierung --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2327<set>NachModul</set></pattern><template>Modulname: Content Management Systeme: Konzepte und Realisierung--Kurzbeschreibung: Die Studenten lernen die Kernkomponenten und Aufgaben eins CMS kennen. Sie sind in der Lage bestehende CMS zu bewerten und k�nnen eigene CMS planen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2327<set>NachModul</set></pattern><template>Modulname: Content Management Systeme: Konzepte und Realisierung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2327<set>NachModul</set></pattern><template>Modulname: Content Management Systeme: Konzepte und Realisierung  --Voraussetzungen: </template></category>
+<category><pattern><set>VorModul</set>Data Warehousing<set>NachModul</set></pattern><template>Modulname: Data Warehousing   --Modulnummer:EB2003</template></category>
+<category><pattern><set>VerantwortlichModul</set>EB2003<set>NachModul</set></pattern><template>Modulname: Data Warehousing --Modulverantwortliche/r: Prof. Dr. Harald Ritz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>EB2003<set>NachModul</set></pattern><template>Modulname: Data Warehousing--Kurzbeschreibung: Grundlagen Data Warehousing: ETL, ODS; Data Martetc.; Data Warehouse-Systeme - Architektur und Phasen; Multidimensionale Datenmodellierung semantische u. logische Datenmodellierung u. OLAP; Data Warehouse; Implementierung und Einf�hrung; Fallstudien mit Softwareprodukten z.B. anhand von DWH-Systemen von SAP, Oracle, SAS.</template></category>
+<category><pattern><set>AufwandMOdul</set>EB2003<set>NachModul</set></pattern><template>Modulname: Data Warehousing  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>EB2003<set>NachModul</set></pattern><template>Modulname: Data Warehousing  --Voraussetzungen: Diese Veranstaltung setzt Kenntnisse im Bereich der Datenbanksysteme voraus beispielsweise CS1020 Datenbanksysteme.</template></category>
+<category><pattern><set>VorModul</set>Datenbanksysteme<set>NachModul</set></pattern><template>Modulname: Datenbanksysteme   --Modulnummer:CS1020</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1020<set>NachModul</set></pattern><template>Modulname: Datenbanksysteme --Modulverantwortliche/r: Prof. Dr. Burkhardt Renz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1020<set>NachModul</set></pattern><template>Modulname: Datenbanksysteme--Kurzbeschreibung: Die Studierenden verstehen die Konzepte von Datenbankmanagementsystemen, sie sind bef�higt Datenmodelle zu entwickeln und beherrschen die Standard-Datenbanksprache SQL.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1020<set>NachModul</set></pattern><template>Modulname: Datenbanksysteme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1020<set>NachModul</set></pattern><template>Modulname: Datenbanksysteme  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Datenschutz und Datensicherheit<set>NachModul</set></pattern><template>Modulname: Datenschutz und Datensicherheit   --Modulnummer:CS2366</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2366<set>NachModul</set></pattern><template>Modulname: Datenschutz und Datensicherheit --Modulverantwortliche/r: Prof. Dr. Andr� Rein</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2366<set>NachModul</set></pattern><template>Modulname: Datenschutz und Datensicherheit--Kurzbeschreibung: Die Absolventinnen und Absolventen verf�gen �ber praxisnahe Kenntnisse des Datenschutzes und der Datensicherheit. Die erworbenen Kompetenzen bef�higen sie dazu, in einem Team Aufgaben aus den Bereichen Sicherheitsplanung und -management unter Beachtung der Belange des Datenschutzes selbstst�ndig zu bearbeiten.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2366<set>NachModul</set></pattern><template>Modulname: Datenschutz und Datensicherheit  --Aufwand: Semesterwochenstunden
+4</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2366<set>NachModul</set></pattern><template>Modulname: Datenschutz und Datensicherheit  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>DevOps<set>NachModul</set></pattern><template>Modulname: DevOps   --Modulnummer:CS2373</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2373<set>NachModul</set></pattern><template>Modulname: DevOps --Modulverantwortliche/r: Steffen Rupp</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2373<set>NachModul</set></pattern><template>Modulname: DevOps--Kurzbeschreibung: Im Rahmen dieser Veranstaltung werden die grundlegenden Konzepte, Tools und Methoden von DevOps vermittelt und an praktischen Beispielen vertieft.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2373<set>NachModul</set></pattern><template>Modulname: DevOps  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2373<set>NachModul</set></pattern><template>Modulname: DevOps  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Digitale Signalverarbeitung<set>NachModul</set></pattern><template>Modulname: Digitale Signalverarbeitung   --Modulnummer:II1003</template></category>
+<category><pattern><set>VerantwortlichModul</set>II1003<set>NachModul</set></pattern><template>Modulname: Digitale Signalverarbeitung --Modulverantwortliche/r: Prof. Dr. Klaus Rinn</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II1003<set>NachModul</set></pattern><template>Modulname: Digitale Signalverarbeitung--Kurzbeschreibung: Einf�hrung in die Grundlagen analoger und digitaler, ein- und zweidimensionaler Signale.</template></category>
+<category><pattern><set>AufwandMOdul</set>II1003<set>NachModul</set></pattern><template>Modulname: Digitale Signalverarbeitung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II1003<set>NachModul</set></pattern><template>Modulname: Digitale Signalverarbeitung  --Voraussetzungen: MN1007 Diskrete Mathematik
+MN1009 Lineare Algebra
+MN1011 Analysis und numerische Methoden</template></category>
+<category><pattern><set>VorModul</set>Digitaltechnik<set>NachModul</set></pattern><template>Modulname: Digitaltechnik   --Modulnummer:II1001</template></category>
+<category><pattern><set>VerantwortlichModul</set>II1001<set>NachModul</set></pattern><template>Modulname: Digitaltechnik --Modulverantwortliche/r: Prof. Dr. Bernd M�ller</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II1001<set>NachModul</set></pattern><template>Modulname: Digitaltechnik--Kurzbeschreibung: Das Modul Digitaltechnik vermittelt anwendungsorientiertes Wissen �ber die Analyse, den Entwurf und die Realisierung von digitalen Schaltungen.</template></category>
+<category><pattern><set>AufwandMOdul</set>II1001<set>NachModul</set></pattern><template>Modulname: Digitaltechnik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II1001<set>NachModul</set></pattern><template>Modulname: Digitaltechnik  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Digitalwissenschaften - geisteswissenschaftlich gedacht<set>NachModul</set></pattern><template>Modulname: Digitalwissenschaften - geisteswissenschaftlich gedacht   --Modulnummer:SK2020</template></category>
+<category><pattern><set>VerantwortlichModul</set>SK2020<set>NachModul</set></pattern><template>Modulname: Digitalwissenschaften - geisteswissenschaftlich gedacht --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>SK2020<set>NachModul</set></pattern><template>Modulname: Digitalwissenschaften - geisteswissenschaftlich gedacht--Kurzbeschreibung: Dieses Modul ist hochschul�bergreifend und erweitert die Denkweise von ingenieur- bzw. geisteswissenschaftlichen Studierenden in Richtung der jeweils anderen Disziplin. Daf�r werden die wissenschaftlichen Methoden und Techniken der Disziplinen gegen�bergestellt und exemplarisch angewandt.</template></category>
+<category><pattern><set>AufwandMOdul</set>SK2020<set>NachModul</set></pattern><template>Modulname: Digitalwissenschaften - geisteswissenschaftlich gedacht  --Aufwand: Gesamtaufwand
+3.0 CrP; 90 Stunden, davon etwa 28 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>SK2020<set>NachModul</set></pattern><template>Modulname: Digitalwissenschaften - geisteswissenschaftlich gedacht  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Diskrete Mathematik<set>NachModul</set></pattern><template>Modulname: Diskrete Mathematik   --Modulnummer:MN1007</template></category>
+<category><pattern><set>VerantwortlichModul</set>MN1007<set>NachModul</set></pattern><template>Modulname: Diskrete Mathematik --Modulverantwortliche/r: Prof. Dr. Hans-Rudolf Metz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>MN1007<set>NachModul</set></pattern><template>Modulname: Diskrete Mathematik--Kurzbeschreibung: Einf�hrung in die Diskrete Mathematik durch Vermittlung von Grundlagen zu den Themen Logik, Mengenlehre, Funktionen, Kombinatorik, Relationen, Graphen, etc.</template></category>
+<category><pattern><set>AufwandMOdul</set>MN1007<set>NachModul</set></pattern><template>Modulname: Diskrete Mathematik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>MN1007<set>NachModul</set></pattern><template>Modulname: Diskrete Mathematik  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>DV-orientierte Betriebswirtschaftslehre<set>NachModul</set></pattern><template>Modulname: DV-orientierte Betriebswirtschaftslehre   --Modulnummer:BA1004</template></category>
+<category><pattern><set>VerantwortlichModul</set>BA1004<set>NachModul</set></pattern><template>Modulname: DV-orientierte Betriebswirtschaftslehre --Modulverantwortliche/r: Prof. Dr. Peter Hohmann</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>BA1004<set>NachModul</set></pattern><template>Modulname: DV-orientierte Betriebswirtschaftslehre--Kurzbeschreibung: In der Veranstaltung werden betriebswirtschaftliche Prozesse/Funktionen, insbesondere deren Unterst�tzung durch computergest�tzte Anwendungssysteme, verdeutlicht.</template></category>
+<category><pattern><set>AufwandMOdul</set>BA1004<set>NachModul</set></pattern><template>Modulname: DV-orientierte Betriebswirtschaftslehre  --Aufwand: Gesamtaufwand
+3.0 CrP; 90 Stunden, davon etwa 30 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>BA1004<set>NachModul</set></pattern><template>Modulname: DV-orientierte Betriebswirtschaftslehre  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>ECO32-Back-End f�r Oberon-Compiler<set>NachModul</set></pattern><template>Modulname: ECO32-Back-End f�r Oberon-Compiler   --Modulnummer:CS2367</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2367<set>NachModul</set></pattern><template>Modulname: ECO32-Back-End f�r Oberon-Compiler --Modulverantwortliche/r: Prof. Dr. Hellwig Geisse</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2367<set>NachModul</set></pattern><template>Modulname: ECO32-Back-End f�r Oberon-Compiler--Kurzbeschreibung: Im Rahmen eines Projektes wird ein Back-End f�r einen Oberon-Compiler implementiert, das Code f�r unseren ECO32 Mikroprozessor erzeugt.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2367<set>NachModul</set></pattern><template>Modulname: ECO32-Back-End f�r Oberon-Compiler  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2367<set>NachModul</set></pattern><template>Modulname: ECO32-Back-End f�r Oberon-Compiler  --Voraussetzungen: Wahlpflichtmodul: Bachelor Informatik</template></category>
+<category><pattern><set>VorModul</set>Effiziente Algorithmen und ihre Anwendung<set>NachModul</set></pattern><template>Modulname: Effiziente Algorithmen und ihre Anwendung   --Modulnummer:CS2353</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2353<set>NachModul</set></pattern><template>Modulname: Effiziente Algorithmen und ihre Anwendung --Modulverantwortliche/r: Dr. habil. Frank Kammer</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2353<set>NachModul</set></pattern><template>Modulname: Effiziente Algorithmen und ihre Anwendung--Kurzbeschreibung: Die Studierenden haben ein fundiertes Wissen �ber fortgeschrittene Algorithmen, k�nnen diese verstehen, implementieren und sinnvoll anwenden.
+Sie k�nnen die Laufzeit und den Speicherplatz dieser Algorithmen analysieren und kennen Techniken, die eine Verbesserung der Effizienz erm�glichen.
+Des Weiteren sind sie in der Lage f�r gegebene Anwendungen Algorithmen in der Literatur oder existierenden Programm-Libraries zu finden und diese passend zu nutzen.
+Die Studierenden k�nnen Algorithmen und Datenstrukturen modular aufteilen und wichtige Aspekte einem Publikum verst�ndlich pr�sentieren.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2353<set>NachModul</set></pattern><template>Modulname: Effiziente Algorithmen und ihre Anwendung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2353<set>NachModul</set></pattern><template>Modulname: Effiziente Algorithmen und ihre Anwendung  --Voraussetzungen: CS1013 Objektorientierte Programmierung
+CS1017 Algorithmen und Datenstrukturen
+MN1007 Diskrete Mathematik</template></category>
+<category><pattern><set>VorModul</set>Einf�hrung in das High Performance Computing<set>NachModul</set></pattern><template>Modulname: Einf�hrung in das High Performance Computing   --Modulnummer:CS2371</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2371<set>NachModul</set></pattern><template>Modulname: Einf�hrung in das High Performance Computing --Modulverantwortliche/r: Prof. Dr. Guido Bartsch</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2371<set>NachModul</set></pattern><template>Modulname: Einf�hrung in das High Performance Computing--Kurzbeschreibung: Parallelrechner stellen eine wichtige Ressource f�r das technisch-wissenschaftliche Hochleistungsrechnen dar. Dieses Modul verfolgt das Ziel, die dem Hochleistungs-rechnen engl. High Performance Computing zugrunde liegende Konzepte auf Hard- und Software-Ebene zu verstehen und deren Praxistauglichkeit f�r spezifische Anwendungen be ?wer ?ten zu k�nnen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2371<set>NachModul</set></pattern><template>Modulname: Einf�hrung in das High Performance Computing  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2371<set>NachModul</set></pattern><template>Modulname: Einf�hrung in das High Performance Computing  --Voraussetzungen: Kenntnisse in Rechnerarchitekturen</template></category>
+<category><pattern><set>VorModul</set>Einf�hrung in den systematischen Softwaretest<set>NachModul</set></pattern><template>Modulname: Einf�hrung in den systematischen Softwaretest   --Modulnummer:II2005</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2005<set>NachModul</set></pattern><template>Modulname: Einf�hrung in den systematischen Softwaretest --Modulverantwortliche/r: Prof. Dr. Klaus-Dieter Quibeldey-Cirkel
+Prof. Dr. Klaus W�st</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2005<set>NachModul</set></pattern><template>Modulname: Einf�hrung in den systematischen Softwaretest--Kurzbeschreibung: Planung, Durchf�hrung, Dokumentation von Tests. Statische und dynamische Testverfahren. Strukturorientierter und funktionsorientierter Test. Blackbox- und Whitebox-Tests. Debugging, Komponententest, Systemtest.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2005<set>NachModul</set></pattern><template>Modulname: Einf�hrung in den systematischen Softwaretest  --Aufwand: Gesamtaufwand
+3.0 CrP; 90 Stunden, davon etwa 30 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2005<set>NachModul</set></pattern><template>Modulname: Einf�hrung in den systematischen Softwaretest  --Voraussetzungen: CS1013 Objektorientierte Programmierung</template></category>
+<category><pattern><set>VorModul</set>Einf�hrung in die Bildverarbeitung<set>NachModul</set></pattern><template>Modulname: Einf�hrung in die Bildverarbeitung   --Modulnummer:CS2326</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2326<set>NachModul</set></pattern><template>Modulname: Einf�hrung in die Bildverarbeitung --Modulverantwortliche/r: Prof. Dr. Aristovoulos Christidis</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2326<set>NachModul</set></pattern><template>Modulname: Einf�hrung in die Bildverarbeitung--Kurzbeschreibung: Algorithmen und Rechenverfahren zur Bildverbesserung, Ans�tze zur Bildauswertung und Merkmalsextraktion.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2326<set>NachModul</set></pattern><template>Modulname: Einf�hrung in die Bildverarbeitung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2326<set>NachModul</set></pattern><template>Modulname: Einf�hrung in die Bildverarbeitung  --Voraussetzungen: Grundkenntnisse in Infinitesimalrechnung und in C-Programmierung</template></category>
+<category><pattern><set>VorModul</set>Einf�hrung in Eingebettete Systeme<set>NachModul</set></pattern><template>Modulname: Einf�hrung in Eingebettete Systeme   --Modulnummer:II1005</template></category>
+<category><pattern><set>VerantwortlichModul</set>II1005<set>NachModul</set></pattern><template>Modulname: Einf�hrung in Eingebettete Systeme --Modulverantwortliche/r: Prof. Dr. Berthold Franzen</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II1005<set>NachModul</set></pattern><template>Modulname: Einf�hrung in Eingebettete Systeme--Kurzbeschreibung: Grundlagen, Aufbau und Einsatzbereich eingebetteter Systeme.</template></category>
+<category><pattern><set>AufwandMOdul</set>II1005<set>NachModul</set></pattern><template>Modulname: Einf�hrung in Eingebettete Systeme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II1005<set>NachModul</set></pattern><template>Modulname: Einf�hrung in Eingebettete Systeme  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Einf�hrung ins Quantencomputing<set>NachModul</set></pattern><template>Modulname: Einf�hrung ins Quantencomputing   --Modulnummer:CS2363</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2363<set>NachModul</set></pattern><template>Modulname: Einf�hrung ins Quantencomputing --Modulverantwortliche/r: Prof. Dr. Bettina Just</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2363<set>NachModul</set></pattern><template>Modulname: Einf�hrung ins Quantencomputing--Kurzbeschreibung: Das Modul erl�utert das Berechnungsmodell des Quantencomputing anhand einfacher Beispiele</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2363<set>NachModul</set></pattern><template>Modulname: Einf�hrung ins Quantencomputing  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2363<set>NachModul</set></pattern><template>Modulname: Einf�hrung ins Quantencomputing  --Voraussetzungen: Kenntnisse in linearer Algebra</template></category>
+<category><pattern><set>VorModul</set>Einf�hrung IT-Security: Kryptografie, Software und Systemsicherheit<set>NachModul</set></pattern><template>Modulname: Einf�hrung IT-Security: Kryptografie, Software und Systemsicherheit   --Modulnummer:CS2362</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2362<set>NachModul</set></pattern><template>Modulname: Einf�hrung IT-Security: Kryptografie, Software und Systemsicherheit --Modulverantwortliche/r: Prof. Dr. Andr� Rein</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2362<set>NachModul</set></pattern><template>Modulname: Einf�hrung IT-Security: Kryptografie, Software und Systemsicherheit--Kurzbeschreibung: Dieses Modul f�hrt theoretische und praktische Grundlagen der IT-Security ein, die insbesondere zu der Umsetzung der Schutzziele Vertraulichkeit, Integrit�t und Authentizit�t von Daten, Software und Systemen verwendet werden.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2362<set>NachModul</set></pattern><template>Modulname: Einf�hrung IT-Security: Kryptografie, Software und Systemsicherheit  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2362<set>NachModul</set></pattern><template>Modulname: Einf�hrung IT-Security: Kryptografie, Software und Systemsicherheit  --Voraussetzungen: C1018 Konzepte systemnaher Programmierung Informale Voraussetzungen:
+Der zweite Teil des Moduls Software- und Systemsicherheit besch�ftigt sich insbesondere mit der Programmiersprache C bzw. systemnaher Programmierung. Fundierte Kenntnisse in systemnaher Programmierung Speicherverwaltung und -allokation, Stack, Heap, Systemcalls, etc. sind zum Verst�ndnis der Inhalte dringend angeraten. Grundlegende Kenntnisse in Linux/Unix-basierten Systemen sollten ebenfalls vorhanden sein.</template></category>
+<category><pattern><set>VorModul</set>Entwicklung mit Einplatinencomputern<set>NachModul</set></pattern><template>Modulname: Entwicklung mit Einplatinencomputern   --Modulnummer:CS2341</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2341<set>NachModul</set></pattern><template>Modulname: Entwicklung mit Einplatinencomputern --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2341<set>NachModul</set></pattern><template>Modulname: Entwicklung mit Einplatinencomputern--Kurzbeschreibung: Die Studierenden erwerben notwendige Kenntnisse �ber die Entwicklung mit Einplatinencomputern. W�hrend des Kurses arbeiten die Studenten an Projekten in denen unterschiedliche Komponenten wie beispielsweise Sensoren sowie Aktoren, Kameras oder Displays verwendet werden. Die Studierenden k�nnen innerhalb eines Teams arbeiten und gemeinsam Anwendungen entwickeln. Au�erdem sind die Studierenden in der Lage die Projektarbeit selbst zu organisieren, das Themengebiet zu differenzieren und ihre Ergebnisse vorzustellen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2341<set>NachModul</set></pattern><template>Modulname: Entwicklung mit Einplatinencomputern  --Aufwand: Gesamtaufwand
+3.0 CrP; 90 Stunden, davon etwa 30 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2341<set>NachModul</set></pattern><template>Modulname: Entwicklung mit Einplatinencomputern  --Voraussetzungen: CS1024 Webbasierte Systeme
+II2008 Physical Computing</template></category>
+<category><pattern><set>VorModul</set>Entwicklung mobiler Applikationen<set>NachModul</set></pattern><template>Modulname: Entwicklung mobiler Applikationen   --Modulnummer:CS2018</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2018<set>NachModul</set></pattern><template>Modulname: Entwicklung mobiler Applikationen --Modulverantwortliche/r: Sebastian S��</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2018<set>NachModul</set></pattern><template>Modulname: Entwicklung mobiler Applikationen--Kurzbeschreibung: In diesem Modul werden die Grundlagen und die Entwicklung von mobilen webbasierten Hybrid-Apps vermittelt.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2018<set>NachModul</set></pattern><template>Modulname: Entwicklung mobiler Applikationen  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2018<set>NachModul</set></pattern><template>Modulname: Entwicklung mobiler Applikationen  --Voraussetzungen: CS1013 Objektorientierte Programmierung
+CS1024 Webbasierte Systeme</template></category>
+<category><pattern><set>VorModul</set>Entwicklung Sicherer Systeme<set>NachModul</set></pattern><template>Modulname: Entwicklung Sicherer Systeme   --Modulnummer:II2020</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2020<set>NachModul</set></pattern><template>Modulname: Entwicklung Sicherer Systeme --Modulverantwortliche/r: Prof. Dr. Alexander Dworschak</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2020<set>NachModul</set></pattern><template>Modulname: Entwicklung Sicherer Systeme--Kurzbeschreibung: Das Modul f�hrt in die Fallstricke der Entwicklung Programmierung  Hardwareinteraktion ein und zeigt Wege auf, robusten und sicheren Code zu schreiben</template></category>
+<category><pattern><set>AufwandMOdul</set>II2020<set>NachModul</set></pattern><template>Modulname: Entwicklung Sicherer Systeme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2020<set>NachModul</set></pattern><template>Modulname: Entwicklung Sicherer Systeme  --Voraussetzungen: Voraussetzungen f�r Bachelor Informatik und Bachelor Ingenieur-Informatik:
+CS1018 Konzepte Systemnaher Programmierung</template></category>
+<category><pattern><set>VorModul</set>Entwicklung sicherer, hardwarenaher Anwendungen<set>NachModul</set></pattern><template>Modulname: Entwicklung sicherer, hardwarenaher Anwendungen   --Modulnummer:II2012</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2012<set>NachModul</set></pattern><template>Modulname: Entwicklung sicherer, hardwarenaher Anwendungen --Modulverantwortliche/r: Prof. Dr. Ing. Diethelm Bienhaus</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2012<set>NachModul</set></pattern><template>Modulname: Entwicklung sicherer, hardwarenaher Anwendungen--Kurzbeschreibung: Das Modul behandelt die Entwicklung sicherer, hardwarenaher Anwendungen. Dazu notwendige Sprachkonstrukte, wie strikte Typisierung, Nebenl�ufigkeitskonzepte und formale Verifikation, werden am Beispiel der Sprache Ada vorgestellt. Anhand eines Projekts wird eine sichere, hardwarenahe Anwendung mit den erlernten Mitteln erarbeitet und dokumentiert.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2012<set>NachModul</set></pattern><template>Modulname: Entwicklung sicherer, hardwarenaher Anwendungen  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2012<set>NachModul</set></pattern><template>Modulname: Entwicklung sicherer, hardwarenaher Anwendungen  --Voraussetzungen: CS1013 Objektorientierte Programmierung
+CS1018 Konzepte systemnaher Programmierung,</template></category>
+<category><pattern><set>VorModul</set>Entwicklung webbasierter Client-Server-Systeme<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Client-Server-Systeme   --Modulnummer:CS2019</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2019<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Client-Server-Systeme --Modulverantwortliche/r: Prof. Dr. Klaus-Dieter Quibeldey-Cirkel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2019<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Client-Server-Systeme--Kurzbeschreibung: Die Veranstaltung vermittelt Kenntnisse und Kompetenzen, die es den Absolventen erlauben, im Team Server-zentriere Webanwendungen zu entwickeln, hohe Anspr�che an Reaktivit�t, Skalierbarkeit und Durchsatz zu erf�llen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2019<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Client-Server-Systeme  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2019<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Client-Server-Systeme  --Voraussetzungen: Voraussetzungen f�r Bachelor Informatik:
+CS1020 Datenbanksysteme, CS1024 Webbasierte Systeme
+Voraussetzungen f�r Bachelor Social Media Systems:
+IT1002 Webbasierte Programmierung 2</template></category>
+<category><pattern><set>VorModul</set>Entwicklung webbasierter Software<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Software   --Modulnummer:CS2323</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2323<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Software --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2323<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Software--Kurzbeschreibung: Die Studierenden lernen PHP und Java-Servlets effektiv in webbasierter Software einzusetzen und die geeignete Technologie f�r ihre Projekte zu finden.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2323<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Software  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2323<set>NachModul</set></pattern><template>Modulname: Entwicklung webbasierter Software  --Voraussetzungen: f�r Bachelor Informatik, Bachelor Ingenieur-Informatik, Bachelor Bioinformatik: CS1020 Datenbanksysteme, CS1024 Webbasierte Systeme
+f�r Bachelor Social Media Systems: CS1020 Datenbanksysteme, IT1002 Webbasierte Programmierung 2</template></category>
+<category><pattern><set>VorModul</set>Funktionale Programmierung<set>NachModul</set></pattern><template>Modulname: Funktionale Programmierung   --Modulnummer:CS2333</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2333<set>NachModul</set></pattern><template>Modulname: Funktionale Programmierung --Modulverantwortliche/r: Prof. Dr. Uwe Meyer</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2333<set>NachModul</set></pattern><template>Modulname: Funktionale Programmierung--Kurzbeschreibung: Das Modul vermittelt die theoretischen Konzepte funktionaler Programmierung. Die Studierenden lernen diese auf praxisnahe Softwareprojekte anzuwenden.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2333<set>NachModul</set></pattern><template>Modulname: Funktionale Programmierung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2333<set>NachModul</set></pattern><template>Modulname: Funktionale Programmierung  --Voraussetzungen: CS1013 Objektorientierte Programmierung
+CS1017 Algorithmen und Datenstrukturen</template></category>
+<category><pattern><set>VorModul</set>Generische Programmierung<set>NachModul</set></pattern><template>Modulname: Generische Programmierung   --Modulnummer:CS2350</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2350<set>NachModul</set></pattern><template>Modulname: Generische Programmierung --Modulverantwortliche/r: Prof. Dr. Thomas Karl Letschert</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2350<set>NachModul</set></pattern><template>Modulname: Generische Programmierung--Kurzbeschreibung: Techniken und Konzepte mit denen Programme und Programmkomponenten verallgemeinert und flexibel einsetzbar gemacht werden.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2350<set>NachModul</set></pattern><template>Modulname: Generische Programmierung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2350<set>NachModul</set></pattern><template>Modulname: Generische Programmierung  --Voraussetzungen: CS1016 Programmierung interaktiver Systeme
+CS1021 Softwaretechnik
+CS2349 Kategorientheorie f�r Informatiker</template></category>
+<category><pattern><set>VorModul</set>Genetische Algorithmen<set>NachModul</set></pattern><template>Modulname: Genetische Algorithmen   --Modulnummer:BI2004</template></category>
+<category><pattern><set>VerantwortlichModul</set>BI2004<set>NachModul</set></pattern><template>Modulname: Genetische Algorithmen --Modulverantwortliche/r: Prof. Dr. Heinz-Uwe Hobohm</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>BI2004<set>NachModul</set></pattern><template>Modulname: Genetische Algorithmen--Kurzbeschreibung: Kennenlernen der St�rken und besonderen Anwendungsbereiche genetischer Algorithmen.</template></category>
+<category><pattern><set>AufwandMOdul</set>BI2004<set>NachModul</set></pattern><template>Modulname: Genetische Algorithmen  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>BI2004<set>NachModul</set></pattern><template>Modulname: Genetische Algorithmen  --Voraussetzungen: Gute bis sehr gute F�higkeit zur Programmierung in einer Hochsprache bevorzugt Java, C++, Objective C.</template></category>
+<category><pattern><set>VorModul</set>Genexpressionsanalyse<set>NachModul</set></pattern><template>Modulname: Genexpressionsanalyse   --Modulnummer:BI1016</template></category>
+<category><pattern><set>VerantwortlichModul</set>BI1016<set>NachModul</set></pattern><template>Modulname: Genexpressionsanalyse --Modulverantwortliche/r: Prof. Dr. Heinz-Uwe Hobohm</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>BI1016<set>NachModul</set></pattern><template>Modulname: Genexpressionsanalyse--Kurzbeschreibung: Analyse von Transkriptomik- und anderen Hochdurchsatzdaten. Anwendung und Programmierung von Bioinformatikwerkzeugen.</template></category>
+<category><pattern><set>AufwandMOdul</set>BI1016<set>NachModul</set></pattern><template>Modulname: Genexpressionsanalyse  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>BI1016<set>NachModul</set></pattern><template>Modulname: Genexpressionsanalyse  --Voraussetzungen: Gute bis sehr gute F�higkeit zur Programmierung in einer Skriptsprache, z.B. Perl oder Python, sowie einer Hochsprache bevorzugt Java, C++, Objective C. Grundkenntnisse des Betriebssystem Unix</template></category>
+<category><pattern><set>VorModul</set>Gesch�ftsprozessmanagement<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmanagement   --Modulnummer:EB2005</template></category>
+<category><pattern><set>VerantwortlichModul</set>EB2005<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmanagement --Modulverantwortliche/r: Prof. Dr. Peter Hohmann</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>EB2005<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmanagement--Kurzbeschreibung: Die Studierenden kennen die Methoden des Gesch�ftsprozessmanagements und k�nnen diese anwenden.</template></category>
+<category><pattern><set>AufwandMOdul</set>EB2005<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmanagement  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>EB2005<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmanagement  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Gesch�ftsprozessmodellierung und -implementierung am Beispiel eines ERP-Systems<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmodellierung und -implementierung am Beispiel eines ERP-Systems   --Modulnummer:CS2331</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2331<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmodellierung und -implementierung am Beispiel eines ERP-Systems --Modulverantwortliche/r: Prof. Dr. Peter Hohmann</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2331<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmodellierung und -implementierung am Beispiel eines ERP-Systems--Kurzbeschreibung: Gesch�ftsprozessmanagement ist eine zentrale betriebswirtschaftliche Strategie, um die Wettbewerbsf�higkeit zu st�rken und die Unternehmensprobleme zu l�sen. In integrierten Anwendungssystemen ist diese Konzeption bestimmende Orientierung in allen Modulen und Komponenten.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2331<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmodellierung und -implementierung am Beispiel eines ERP-Systems  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2331<set>NachModul</set></pattern><template>Modulname: Gesch�ftsprozessmodellierung und -implementierung am Beispiel eines ERP-Systems  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Gesellschaftliche Verantwortung in der Informatik<set>NachModul</set></pattern><template>Modulname: Gesellschaftliche Verantwortung in der Informatik   --Modulnummer:SK2017</template></category>
+<category><pattern><set>VerantwortlichModul</set>SK2017<set>NachModul</set></pattern><template>Modulname: Gesellschaftliche Verantwortung in der Informatik --Modulverantwortliche/r: Prof. Dr. Alexander Dworschak</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>SK2017<set>NachModul</set></pattern><template>Modulname: Gesellschaftliche Verantwortung in der Informatik--Kurzbeschreibung: Gezielte Wahlwerbung, "scoring", de-Akkreditierung von Journalisten wegen falscher Datenbankeintr�ge sowie T�ten von Menschen auf Basis von Metadaten: Informatik ver�ndert unsere Gesellschat radikal. Dieses Modul behandelt aktuelle Fragestellungen zum Verh�ltnis von Informatiker und Gesellschaft.</template></category>
+<category><pattern><set>AufwandMOdul</set>SK2017<set>NachModul</set></pattern><template>Modulname: Gesellschaftliche Verantwortung in der Informatik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>SK2017<set>NachModul</set></pattern><template>Modulname: Gesellschaftliche Verantwortung in der Informatik  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Grundlagen der Computergrafik<set>NachModul</set></pattern><template>Modulname: Grundlagen der Computergrafik   --Modulnummer:CS2306</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2306<set>NachModul</set></pattern><template>Modulname: Grundlagen der Computergrafik --Modulverantwortliche/r: Prof. Dr. Aristovoulos Christidis</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2306<set>NachModul</set></pattern><template>Modulname: Grundlagen der Computergrafik--Kurzbeschreibung: Mathematische Grundlagen der Computergrafik, Konzepte der Implementierung von Programmbibliotheken f�r Echtzeitgrafik und Einf�hrung in OpenGL.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2306<set>NachModul</set></pattern><template>Modulname: Grundlagen der Computergrafik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2306<set>NachModul</set></pattern><template>Modulname: Grundlagen der Computergrafik  --Voraussetzungen: Grundkenntnisse in Linearer Algebra und in C-Programmierung</template></category>
+<category><pattern><set>VorModul</set>Grundlagen der Informatik<set>NachModul</set></pattern><template>Modulname: Grundlagen der Informatik   --Modulnummer:CS1014</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1014<set>NachModul</set></pattern><template>Modulname: Grundlagen der Informatik --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1014<set>NachModul</set></pattern><template>Modulname: Grundlagen der Informatik--Kurzbeschreibung: Diese Veranstaltung f�hrt in den Bereich der theoretischen Informatik ein, erl�utert dabei den Begriff der Information auf unterschiedlichen semantischen Ebenen und stellt die Grundelemente von Algorithmen dar. Die dabei aufgef�hrten Methoden und Konzepte werden jeweils exemplarisch mit ihrer Anwendung in Rechnersystemen vertiefend erl�utert.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1014<set>NachModul</set></pattern><template>Modulname: Grundlagen der Informatik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1014<set>NachModul</set></pattern><template>Modulname: Grundlagen der Informatik  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Grundlagen der K�nstlichen Intelligenz<set>NachModul</set></pattern><template>Modulname: Grundlagen der K�nstlichen Intelligenz   --Modulnummer:CS2364</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2364<set>NachModul</set></pattern><template>Modulname: Grundlagen der K�nstlichen Intelligenz --Modulverantwortliche/r: Dr. habil. Frank Kammer</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2364<set>NachModul</set></pattern><template>Modulname: Grundlagen der K�nstlichen Intelligenz--Kurzbeschreibung: Die Vorlesung gibt einen �berblick �ber wichtige Anwendungen Games, Chatbots, Text-Mining, Big-Data, etc. und Methoden der K�nstlichen Intelligenz.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2364<set>NachModul</set></pattern><template>Modulname: Grundlagen der K�nstlichen Intelligenz  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2364<set>NachModul</set></pattern><template>Modulname: Grundlagen der K�nstlichen Intelligenz  --Voraussetzungen: Wahlpflichtmodul: Bachelor Informatik, Bachelor Ingenieur-Informatik, Bachelor Bioinformatik und Bachelor Social Media Systems</template></category>
+<category><pattern><set>VorModul</set>Grundlagen der Robotik<set>NachModul</set></pattern><template>Modulname: Grundlagen der Robotik   --Modulnummer:II2004</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2004<set>NachModul</set></pattern><template>Modulname: Grundlagen der Robotik --Modulverantwortliche/r: Prof. Dr. Ing. Diethelm Bienhaus</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2004<set>NachModul</set></pattern><template>Modulname: Grundlagen der Robotik--Kurzbeschreibung: Bauweise und Funktion mobiler und station�rer Roboter. Programmierkonzepte der Robotik. Transformationen zwischen Koordinatensystemen. Serielle und parallele Kinematiken. Sensordatenfusion und Verhaltensprogrammierung.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2004<set>NachModul</set></pattern><template>Modulname: Grundlagen der Robotik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2004<set>NachModul</set></pattern><template>Modulname: Grundlagen der Robotik  --Voraussetzungen: MN1009 Lineare Algebra
+CS1018 Konzepte systemnaher Programmierung</template></category>
+<category><pattern><set>VorModul</set>Grundlagen der Systemtheorie<set>NachModul</set></pattern><template>Modulname: Grundlagen der Systemtheorie   --Modulnummer:CS2352</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2352<set>NachModul</set></pattern><template>Modulname: Grundlagen der Systemtheorie --Modulverantwortliche/r: Prof. Dr. Axel Schumann</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2352<set>NachModul</set></pattern><template>Modulname: Grundlagen der Systemtheorie--Kurzbeschreibung: Die Veranstaltung vermittelt die Grundlagen der Systemtheorie mit Schwerpunkt auf Informationstechnologie, Naturwissenschaften und Kommunikation in sozialen Medien.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2352<set>NachModul</set></pattern><template>Modulname: Grundlagen der Systemtheorie  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2352<set>NachModul</set></pattern><template>Modulname: Grundlagen der Systemtheorie  --Voraussetzungen: MN1009 Lineare Algebra
+CS1018 Konzepte systemnaher Programmierung</template></category>
+<category><pattern><set>VorModul</set>Grundlagen des Cloud Computing<set>NachModul</set></pattern><template>Modulname: Grundlagen des Cloud Computing   --Modulnummer:CS2355</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2355<set>NachModul</set></pattern><template>Modulname: Grundlagen des Cloud Computing --Modulverantwortliche/r: Prof. Dr. Alexander Dworschak</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2355<set>NachModul</set></pattern><template>Modulname: Grundlagen des Cloud Computing--Kurzbeschreibung: In dieser Veranstaltung werden grundlegende Konzepte und Methoden des Cloud Computings vermittelt.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2355<set>NachModul</set></pattern><template>Modulname: Grundlagen des Cloud Computing  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2355<set>NachModul</set></pattern><template>Modulname: Grundlagen des Cloud Computing  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Hauptseminar<set>NachModul</set></pattern><template>Modulname: Hauptseminar   --Modulnummer:CS1025</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1025<set>NachModul</set></pattern><template>Modulname: Hauptseminar --Modulverantwortliche/r: Prof. Dr. Burkhardt Renz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1025<set>NachModul</set></pattern><template>Modulname: Hauptseminar--Kurzbeschreibung: Die Studierenden sind in der Lage, das im Studium erlernte Wissen auf ein Spezialthema anzuwenden und dieses ihren Kommilitoninnen und Kommilitonen verst�ndlich zu pr�sentieren.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1025<set>NachModul</set></pattern><template>Modulname: Hauptseminar  --Aufwand: Semesterwochenstunden
+2</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1025<set>NachModul</set></pattern><template>Modulname: Hauptseminar  --Voraussetzungen: Informatik B.Sc. 2010
+Grundlagen der Informatik CS1014
+Programmierung interaktiver Systeme CS1016
+Bioinformatik B.Sc. 2012
+Grundlagen der Informatik CS1014
+Programmierung interaktiver Systeme CS1016
+Ingenieur-Informatik B.Sc. 2010
+Grundlagen der Informatik CS1014
+Programmierung interaktiver Systeme CS1016</template></category>
+<category><pattern><set>VorModul</set>Industrie 4.0 - Einf�hrung, Konzepte und Technologien<set>NachModul</set></pattern><template>Modulname: Industrie 4.0 - Einf�hrung, Konzepte und Technologien   --Modulnummer:II2018</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2018<set>NachModul</set></pattern><template>Modulname: Industrie 4.0 - Einf�hrung, Konzepte und Technologien --Modulverantwortliche/r: Prof. Dr. Christian �berall</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2018<set>NachModul</set></pattern><template>Modulname: Industrie 4.0 - Einf�hrung, Konzepte und Technologien--Kurzbeschreibung: In der Veranstaltung werden die Grundlagen von Industrie 4.0 vermittelt und erl�utert welche Zielsetzungen mit der Einf�hrung erreicht werden sollen. Des Weiteren lernen die Studierenden die Konzepte und Technologien von Industrie 4.0 kennen.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2018<set>NachModul</set></pattern><template>Modulname: Industrie 4.0 - Einf�hrung, Konzepte und Technologien  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2018<set>NachModul</set></pattern><template>Modulname: Industrie 4.0 - Einf�hrung, Konzepte und Technologien  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Informationsmanagement<set>NachModul</set></pattern><template>Modulname: Informationsmanagement   --Modulnummer:EB2002</template></category>
+<category><pattern><set>VerantwortlichModul</set>EB2002<set>NachModul</set></pattern><template>Modulname: Informationsmanagement --Modulverantwortliche/r: Prof. Dr. Peter Hohmann</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>EB2002<set>NachModul</set></pattern><template>Modulname: Informationsmanagement--Kurzbeschreibung: Der Schwerpunkt dieser Veranstaltung liegt beim strategischen und operativen Management der betrieblichen IT-Systeme und deren Umfeld.</template></category>
+<category><pattern><set>AufwandMOdul</set>EB2002<set>NachModul</set></pattern><template>Modulname: Informationsmanagement  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>EB2002<set>NachModul</set></pattern><template>Modulname: Informationsmanagement  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Innovationsmanagement<set>NachModul</set></pattern><template>Modulname: Innovationsmanagement   --Modulnummer:EB2507</template></category>
+<category><pattern><set>VerantwortlichModul</set>EB2507<set>NachModul</set></pattern><template>Modulname: Innovationsmanagement --Modulverantwortliche/r: Prof. Dr. Armin Wagenknecht</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>EB2507<set>NachModul</set></pattern><template>Modulname: Innovationsmanagement--Kurzbeschreibung: Die Studierenden
+kennen den Aufgabenbereich des strategischen Innovationsmanagements.
+verstehen die strategische Relevanz von Innovationen.
+kennen aktuelle Trends im Innovationsmanagement.
+kennen Patentstrategien.
+verstehen Markteintrittsstrategien.
+kennen das Marketing von Innovationen.</template></category>
+<category><pattern><set>AufwandMOdul</set>EB2507<set>NachModul</set></pattern><template>Modulname: Innovationsmanagement  --Aufwand: Semesterwochenstunden
+2</template></category>
+<category><pattern><set>VoraussetzungenModul</set>EB2507<set>NachModul</set></pattern><template>Modulname: Innovationsmanagement  --Voraussetzungen: Wahlpflichtmodul: Bachelor Social Media Systems; Bachelor Informatik</template></category>
+<category><pattern><set>VorModul</set>Intelligente Umgebungen und Assistenzsysteme<set>NachModul</set></pattern><template>Modulname: Intelligente Umgebungen und Assistenzsysteme   --Modulnummer:II2009</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2009<set>NachModul</set></pattern><template>Modulname: Intelligente Umgebungen und Assistenzsysteme --Modulverantwortliche/r: Prof. Dr. Ing. Diethelm Bienhaus</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2009<set>NachModul</set></pattern><template>Modulname: Intelligente Umgebungen und Assistenzsysteme--Kurzbeschreibung: Das Modul gibt eine fundierte Einf�hrung in Ambient Intelligence und intelligente Umgebungen. Unterschiedliche Anwendungsbereiche wie Industrie 4.0, Smart Grid, Smart Home und AAL werden vorgestellt. Weiterhin werden praktische Erfahrungen aus Bereichen wie Smart Home, Ambient Assisted Living und Smart Sensor Networks erlangt.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2009<set>NachModul</set></pattern><template>Modulname: Intelligente Umgebungen und Assistenzsysteme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2009<set>NachModul</set></pattern><template>Modulname: Intelligente Umgebungen und Assistenzsysteme  --Voraussetzungen: CS1018 Konzepte systemnaher Programmierung</template></category>
+<category><pattern><set>VorModul</set>Java Platform, Enterprise Edition JEE Praktikum<set>NachModul</set></pattern><template>Modulname: Java Platform, Enterprise Edition JEE Praktikum   --Modulnummer:CS2009</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2009<set>NachModul</set></pattern><template>Modulname: Java Platform, Enterprise Edition JEE Praktikum --Modulverantwortliche/r: Sebastian S��</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2009<set>NachModul</set></pattern><template>Modulname: Java Platform, Enterprise Edition JEE Praktikum--Kurzbeschreibung: In diesem Modul werden anhand von Vortr�gen und praktischen �bungen die Kernbereiche der JEE-Spezifikation vermittelt.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2009<set>NachModul</set></pattern><template>Modulname: Java Platform, Enterprise Edition JEE Praktikum  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2009<set>NachModul</set></pattern><template>Modulname: Java Platform, Enterprise Edition JEE Praktikum  --Voraussetzungen: CS1013 Objektorientierte Programmierung
+CS1024 Webbasierte Systeme</template></category>
+<category><pattern><set>VorModul</set>Kategorientheorie f�r Informatiker<set>NachModul</set></pattern><template>Modulname: Kategorientheorie f�r Informatiker   --Modulnummer:CS2349</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2349<set>NachModul</set></pattern><template>Modulname: Kategorientheorie f�r Informatiker --Modulverantwortliche/r: Prof. Dr. Bettina Just</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2349<set>NachModul</set></pattern><template>Modulname: Kategorientheorie f�r Informatiker--Kurzbeschreibung: Grundlagen der Kategorientheorie, die in der Informatik angewendet werden, z.B. Produkte, exponentielle Objekte, Funktoren, nat�rliche Transformationen, Monaden, Adjunktion, Yoneda-Lemma, Curry-Howard Isomorphismus.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2349<set>NachModul</set></pattern><template>Modulname: Kategorientheorie f�r Informatiker  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2349<set>NachModul</set></pattern><template>Modulname: Kategorientheorie f�r Informatiker  --Voraussetzungen: MN1007 Diskrete Mathematik</template></category>
+<category><pattern><set>VorModul</set>Komponenten und Frameworks<set>NachModul</set></pattern><template>Modulname: Komponenten und Frameworks   --Modulnummer:CS2318</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2318<set>NachModul</set></pattern><template>Modulname: Komponenten und Frameworks --Modulverantwortliche/r: Prof. Dr. Wolfgang Henrich</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2318<set>NachModul</set></pattern><template>Modulname: Komponenten und Frameworks--Kurzbeschreibung: Der Aufbau moderner Frameworks f�r die Anwendungsentwicklung und die Grundlagen der Komponententechnologie werden behandelt. Exemplarisch werden Komponenten f�r das .NET Framework entwickelt.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2318<set>NachModul</set></pattern><template>Modulname: Komponenten und Frameworks  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2318<set>NachModul</set></pattern><template>Modulname: Komponenten und Frameworks  --Voraussetzungen: CS1016 Programmierung interaktiver Systeme</template></category>
+<category><pattern><set>VorModul</set>Konzepte moderner Softwareentwicklung<set>NachModul</set></pattern><template>Modulname: Konzepte moderner Softwareentwicklung   --Modulnummer:CS2016</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2016<set>NachModul</set></pattern><template>Modulname: Konzepte moderner Softwareentwicklung --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2016<set>NachModul</set></pattern><template>Modulname: Konzepte moderner Softwareentwicklung--Kurzbeschreibung: Der Kurs vermittelt die Grundlagen von g�ngigen Softwareentwicklungs-Praktiken. Dies geschieht durch selbstst�ndig durchgef�hrte Teamarbeit innerhalb praxisnaher Softwareprojekte. Dabei erproben die Teilnehmenden die Einarbeitung in produktive Softwaresysteme durch bew�hrte Techniken.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2016<set>NachModul</set></pattern><template>Modulname: Konzepte moderner Softwareentwicklung  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2016<set>NachModul</set></pattern><template>Modulname: Konzepte moderner Softwareentwicklung  --Voraussetzungen: Diese Veranstaltung setzt Programmierkenntnisse und -erfahrungen, insbesondere im Bereich der komponentenbasierten, objektorientierten Programmierung voraus. Zus�tzlich sollten methodische Kenntnisse im Bereich des Software-Engineerings und die F�higkeit zum eigenverantwortlichen, teamorientierten Entwickeln vorhanden sein.</template></category>
+<category><pattern><set>VorModul</set>Konzepte systemnaher Programmierung<set>NachModul</set></pattern><template>Modulname: Konzepte systemnaher Programmierung   --Modulnummer:CS1018</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1018<set>NachModul</set></pattern><template>Modulname: Konzepte systemnaher Programmierung --Modulverantwortliche/r: Prof. Dr. Andr� Rein</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1018<set>NachModul</set></pattern><template>Modulname: Konzepte systemnaher Programmierung--Kurzbeschreibung: Unter Benutzung der Programmiersprache C wird eine virtuelle Maschine f�r eine kleine Programmiersprache implementiert, als Beispiel, wie Abstraktionen aus Systemdiensten synthetisiert werden k�nnen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1018<set>NachModul</set></pattern><template>Modulname: Konzepte systemnaher Programmierung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1018<set>NachModul</set></pattern><template>Modulname: Konzepte systemnaher Programmierung  --Voraussetzungen: f�r Bachelor Informatik, Bachelor Ingenieur-Informatik: CS1013 Objektorientierte Programmierung CS1017 Algorithmen und Datenstrukturen,
+f�r Bachelor Social Media Systems: IT1002 Webbasierte Systeme 2, CS1017 Algorithmen und Datenstrukturen</template></category>
+<category><pattern><set>VorModul</set>Leit-, Steuerungs- und Kommunikationssysteme<set>NachModul</set></pattern><template>Modulname: Leit-, Steuerungs- und Kommunikationssysteme   --Modulnummer:II1004</template></category>
+<category><pattern><set>VerantwortlichModul</set>II1004<set>NachModul</set></pattern><template>Modulname: Leit-, Steuerungs- und Kommunikationssysteme --Modulverantwortliche/r: Prof. Dr. Bernd M�ller</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II1004<set>NachModul</set></pattern><template>Modulname: Leit-, Steuerungs- und Kommunikationssysteme--Kurzbeschreibung: Das Modul Leit-, Steuerungs und Kommunikationsysteme vermittelt einen �berblick �ber die Architektur, Funktionalit�t und Programmierung moderner industrieller Automatisierungs-, Leit- und Kommunikationssysteme.</template></category>
+<category><pattern><set>AufwandMOdul</set>II1004<set>NachModul</set></pattern><template>Modulname: Leit-, Steuerungs- und Kommunikationssysteme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II1004<set>NachModul</set></pattern><template>Modulname: Leit-, Steuerungs- und Kommunikationssysteme  --Voraussetzungen: II1001 Digitaltechnik
+CS1028 Rechnernetze und Einf�hrung in verteilte Systeme</template></category>
+<category><pattern><set>VorModul</set>Lineare Algebra<set>NachModul</set></pattern><template>Modulname: Lineare Algebra   --Modulnummer:MN1009</template></category>
+<category><pattern><set>VerantwortlichModul</set>MN1009<set>NachModul</set></pattern><template>Modulname: Lineare Algebra --Modulverantwortliche/r: Prof. Dr. Bettina Just</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>MN1009<set>NachModul</set></pattern><template>Modulname: Lineare Algebra--Kurzbeschreibung: Behandlung praktischer Themen der Linearen Algebra wie Vektoralgebra, Lineare Geometrie, Lineare Gleichungssysteme, Matrizen, Determinanten, Eigenwerte und Eigenvektoren.</template></category>
+<category><pattern><set>AufwandMOdul</set>MN1009<set>NachModul</set></pattern><template>Modulname: Lineare Algebra  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>MN1009<set>NachModul</set></pattern><template>Modulname: Lineare Algebra  --Voraussetzungen: MN1007 Diskrete Mathematik</template></category>
+<category><pattern><set>VorModul</set>Lokale Netze<set>NachModul</set></pattern><template>Modulname: Lokale Netze   --Modulnummer:CS2302</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2302<set>NachModul</set></pattern><template>Modulname: Lokale Netze --Modulverantwortliche/r: Prof. Dr. Bernd M�ller</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2302<set>NachModul</set></pattern><template>Modulname: Lokale Netze--Kurzbeschreibung: Das Modul Lokale Netze vermittelt einen �berblick �ber die Planung, den Aufbau, die Funktionsweise, die Komponenten und den Betrieb eines lokalen Netzes.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2302<set>NachModul</set></pattern><template>Modulname: Lokale Netze  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2302<set>NachModul</set></pattern><template>Modulname: Lokale Netze  --Voraussetzungen: CS1028 Rechnernetze und Einf�hrung in verteilte Systeme</template></category>
+<category><pattern><set>VorModul</set>LPIC-1: Linux Administrator<set>NachModul</set></pattern><template>Modulname: LPIC-1: Linux Administrator   --Modulnummer:CS2372</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2372<set>NachModul</set></pattern><template>Modulname: LPIC-1: Linux Administrator --Modulverantwortliche/r: Prof. Dr. Klaus-Dieter Quibeldey-Cirkel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2372<set>NachModul</set></pattern><template>Modulname: LPIC-1: Linux Administrator--Kurzbeschreibung: Der Onlinekurs bereitet nachhaltig mit der Lernkartei-Methode nach Leitner auf die Linux-Zertifizierung LPIC-1 des Linux Professional Institute vor. Das Zertifikat belegt, dass die Absolventin oder der Absolvent Wartungsaufgaben auf der Kommandozeile ausf�hren, Linux-Rechner installieren und konfigurieren sowie grundlegende Netzwerk-Konfigurationen vornehmen kann.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2372<set>NachModul</set></pattern><template>Modulname: LPIC-1: Linux Administrator  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2372<set>NachModul</set></pattern><template>Modulname: LPIC-1: Linux Administrator  --Voraussetzungen: Wahlpflicht: Bachelor Informatik, Bachelor Ingenieur-Informatik</template></category>
+<category><pattern><set>VorModul</set>Machine Learning<set>NachModul</set></pattern><template>Modulname: Machine Learning   --Modulnummer:CS2356</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2356<set>NachModul</set></pattern><template>Modulname: Machine Learning --Modulverantwortliche/r: Prof. Dr. Franz Cemic</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2356<set>NachModul</set></pattern><template>Modulname: Machine Learning--Kurzbeschreibung: Das Modul vermittelt die Grundlagen des Machinellen Lernens Machine Learning. Dazu z�hlt ein �berblick �ber die mathematischen Grundlagen sowie eine Einf�hrung in die praktische Umsetzung eigener Projekte mit g�ngigen Python-basierten Frameworks z.B. Anaconda.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2356<set>NachModul</set></pattern><template>Modulname: Machine Learning  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2356<set>NachModul</set></pattern><template>Modulname: Machine Learning  --Voraussetzungen: Wahlpflicht: Bachelor Informatik, Bachelor Ingenieur-Informatik</template></category>
+<category><pattern><set>VorModul</set>Methoden und Didaktik f�r Tutorinnen und Tutoren<set>NachModul</set></pattern><template>Modulname: Methoden und Didaktik f�r Tutorinnen und Tutoren   --Modulnummer:SK2007</template></category>
+<category><pattern><set>VerantwortlichModul</set>SK2007<set>NachModul</set></pattern><template>Modulname: Methoden und Didaktik f�r Tutorinnen und Tutoren --Modulverantwortliche/r: Prof. Silke Bock</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>SK2007<set>NachModul</set></pattern><template>Modulname: Methoden und Didaktik f�r Tutorinnen und Tutoren--Kurzbeschreibung: Die Studierenden haben didaktische und methodische Kompetenzen entwickelt. Sie kennen didaktische Konzepte, Methoden und Medien, um Lehr-, Lern-, Gruppen- und Prozesssituationen vorbereiten, gestalten und reflektieren zu k�nnen. In diesem Zusammenhang haben sie vor allem ihre Kommunikations- und Kooperationsf�higkeiten trainiert und u.a. F�higkeiten zur Leitung von Gruppen und Bew�ltigung von Konfliktsituationen entwickelt. Die entwickelten Kompetenzen haben sie aktiv im Rahmen ihrer Tutorien und ihres eigenen Studiums angewendet.</template></category>
+<category><pattern><set>AufwandMOdul</set>SK2007<set>NachModul</set></pattern><template>Modulname: Methoden und Didaktik f�r Tutorinnen und Tutoren  --Aufwand: Semesterwochenstunden
+2</template></category>
+<category><pattern><set>VoraussetzungenModul</set>SK2007<set>NachModul</set></pattern><template>Modulname: Methoden und Didaktik f�r Tutorinnen und Tutoren  --Voraussetzungen: Wahlpflicht: Bachelor Informatik, Bachelor Ingenieur-Informatik</template></category>
+<category><pattern><set>VorModul</set>Mikroprozessortechnik<set>NachModul</set></pattern><template>Modulname: Mikroprozessortechnik   --Modulnummer:II1002</template></category>
+<category><pattern><set>VerantwortlichModul</set>II1002<set>NachModul</set></pattern><template>Modulname: Mikroprozessortechnik --Modulverantwortliche/r: Prof. Dr. Klaus W�st</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II1002<set>NachModul</set></pattern><template>Modulname: Mikroprozessortechnik--Kurzbeschreibung: Speicher, Adressierungsmethoden, Busse. Aufbau der CPU. Assemblersprache, Maschinensprache. Rechnerarchitekturen. Mikrocontroller und Peripheriegruppen. Energieeffizienz. Aktuelle Beispielarchitekturen.</template></category>
+<category><pattern><set>AufwandMOdul</set>II1002<set>NachModul</set></pattern><template>Modulname: Mikroprozessortechnik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II1002<set>NachModul</set></pattern><template>Modulname: Mikroprozessortechnik  --Voraussetzungen: II1001 Digitaltechnik</template></category>
+<category><pattern><set>VorModul</set>Naturwissenschaftliche und technische Grundlagen<set>NachModul</set></pattern><template>Modulname: Naturwissenschaftliche und technische Grundlagen   --Modulnummer:MN1008</template></category>
+<category><pattern><set>VerantwortlichModul</set>MN1008<set>NachModul</set></pattern><template>Modulname: Naturwissenschaftliche und technische Grundlagen --Modulverantwortliche/r: Prof. Dr. Klaus Rinn</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>MN1008<set>NachModul</set></pattern><template>Modulname: Naturwissenschaftliche und technische Grundlagen--Kurzbeschreibung: Modul enth�lt die naturwissenschaftlichen und technischen Grundlagen, um die IT-Hardware zu verstehen und einfache Berechnungen auszuf�hren.</template></category>
+<category><pattern><set>AufwandMOdul</set>MN1008<set>NachModul</set></pattern><template>Modulname: Naturwissenschaftliche und technische Grundlagen  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>MN1008<set>NachModul</set></pattern><template>Modulname: Naturwissenschaftliche und technische Grundlagen  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Nebenl�ufige und verteilte Programme<set>NachModul</set></pattern><template>Modulname: Nebenl�ufige und verteilte Programme   --Modulnummer:CS2301</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2301<set>NachModul</set></pattern><template>Modulname: Nebenl�ufige und verteilte Programme --Modulverantwortliche/r: Prof. Dr. Thomas Karl Letschert</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2301<set>NachModul</set></pattern><template>Modulname: Nebenl�ufige und verteilte Programme--Kurzbeschreibung: Dieses Modul f�hrt in die Konzepte der Nebenl�ufigkeit und Verteilung ein und zeigt, wie Synchronisationsprobleme mit Standard-Techniken und -Mechanismen gel�st werden.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2301<set>NachModul</set></pattern><template>Modulname: Nebenl�ufige und verteilte Programme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2301<set>NachModul</set></pattern><template>Modulname: Nebenl�ufige und verteilte Programme  --Voraussetzungen: CS1016 Programmierung interaktiver Systeme
+CS1021 Softwaretechnik
+CS1022 Betriebssysteme</template></category>
+<category><pattern><set>VorModul</set>Objektorientierte Programmierung<set>NachModul</set></pattern><template>Modulname: Objektorientierte Programmierung   --Modulnummer:CS1013</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1013<set>NachModul</set></pattern><template>Modulname: Objektorientierte Programmierung --Modulverantwortliche/r: Prof. Dr. Dominikus Herzberg</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1013<set>NachModul</set></pattern><template>Modulname: Objektorientierte Programmierung--Kurzbeschreibung: Das Modul vermittelt, wie modulare Programme mittlerer Komplexit�t mit Hilfe objekt-orientierter Ans�tze entworfen, implementiert und getestet werden.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1013<set>NachModul</set></pattern><template>Modulname: Objektorientierte Programmierung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1013<set>NachModul</set></pattern><template>Modulname: Objektorientierte Programmierung  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Open-Source-Programmierwerkzeuge<set>NachModul</set></pattern><template>Modulname: Open-Source-Programmierwerkzeuge   --Modulnummer:CS2313</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2313<set>NachModul</set></pattern><template>Modulname: Open-Source-Programmierwerkzeuge --Modulverantwortliche/r: Prof. Dr. Hellwig Geisse</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2313<set>NachModul</set></pattern><template>Modulname: Open-Source-Programmierwerkzeuge--Kurzbeschreibung: Versionsverwaltung und Fehlersuche sind allt�gliche Bestandteile bei der Softwareentwicklung. Verschiedene Hilfsprogramme und ihre geschickte Kombination k�nnen manche Aufgabe deutlich erleichtern.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2313<set>NachModul</set></pattern><template>Modulname: Open-Source-Programmierwerkzeuge  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2313<set>NachModul</set></pattern><template>Modulname: Open-Source-Programmierwerkzeuge  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Physical Computing<set>NachModul</set></pattern><template>Modulname: Physical Computing   --Modulnummer:II2008</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2008<set>NachModul</set></pattern><template>Modulname: Physical Computing --Modulverantwortliche/r: Prof. Dr. Ing. Diethelm Bienhaus</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2008<set>NachModul</set></pattern><template>Modulname: Physical Computing--Kurzbeschreibung: Das Modul f�hrt in Hardware-Plattformen f�r das Physical Computing ein und vermittelt vertiefte Kenntnisse in der Programmierung solcher Systeme unter Nutzung von Sensoren und Aktoren. Weiterhin werden praktische Erfahrungen mit Robotersystemen erlangt.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2008<set>NachModul</set></pattern><template>Modulname: Physical Computing  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2008<set>NachModul</set></pattern><template>Modulname: Physical Computing  --Voraussetzungen: CS1018 Konzepte systemnaher Programmierung</template></category>
+<category><pattern><set>VorModul</set>Praktikum Bild und Grafik<set>NachModul</set></pattern><template>Modulname: Praktikum Bild und Grafik   --Modulnummer:CS2013</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2013<set>NachModul</set></pattern><template>Modulname: Praktikum Bild und Grafik --Modulverantwortliche/r: Prof. Dr. Aristovoulos Christidis</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2013<set>NachModul</set></pattern><template>Modulname: Praktikum Bild und Grafik--Kurzbeschreibung: Aufbau einer virtuellen Landschaft und Navigation in ihr.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2013<set>NachModul</set></pattern><template>Modulname: Praktikum Bild und Grafik  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2013<set>NachModul</set></pattern><template>Modulname: Praktikum Bild und Grafik  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Praktikum Eingebettete Systeme<set>NachModul</set></pattern><template>Modulname: Praktikum Eingebettete Systeme   --Modulnummer:II1006</template></category>
+<category><pattern><set>VerantwortlichModul</set>II1006<set>NachModul</set></pattern><template>Modulname: Praktikum Eingebettete Systeme --Modulverantwortliche/r: Prof. Dr. Klaus W�st</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II1006<set>NachModul</set></pattern><template>Modulname: Praktikum Eingebettete Systeme--Kurzbeschreibung: Systematische Planung, Entwicklung, und Realisierung eines einfachen eingebetteten Systems im Team. Aufwandssch�tzung, Schnittstelle zur Hardware, Echtzeitaspekte. Wechselnde Aufgaben.</template></category>
+<category><pattern><set>AufwandMOdul</set>II1006<set>NachModul</set></pattern><template>Modulname: Praktikum Eingebettete Systeme  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 30 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II1006<set>NachModul</set></pattern><template>Modulname: Praktikum Eingebettete Systeme  --Voraussetzungen: CS1018 Konzepte systemnaher Programmierung
+II1002 Mikroprozessortechnik
+II1005 Einf�hrung in Eingebettete Systeme</template></category>
+<category><pattern><set>VorModul</set>Praktikum Rechnernetze<set>NachModul</set></pattern><template>Modulname: Praktikum Rechnernetze   --Modulnummer:CS2011</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2011<set>NachModul</set></pattern><template>Modulname: Praktikum Rechnernetze --Modulverantwortliche/r: Prof. Dr. Bernd M�ller</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2011<set>NachModul</set></pattern><template>Modulname: Praktikum Rechnernetze--Kurzbeschreibung: Die Studierenden l�sen im Labor Aufgabenstellungen zu den Themen Entwurf und Betrieb lokaler Netze, Netzwerk- und Protokollanalyse sowie Internet-Programmierung.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2011<set>NachModul</set></pattern><template>Modulname: Praktikum Rechnernetze  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2011<set>NachModul</set></pattern><template>Modulname: Praktikum Rechnernetze  --Voraussetzungen: CS1028 Rechnernetze und Einf�hrung in verteilte Systeme
+CS2302 Lokale Netze</template></category>
+<category><pattern><set>VorModul</set>Praktikum Wirtschaftsinformatik<set>NachModul</set></pattern><template>Modulname: Praktikum Wirtschaftsinformatik   --Modulnummer:CS2015</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2015<set>NachModul</set></pattern><template>Modulname: Praktikum Wirtschaftsinformatik --Modulverantwortliche/r: Prof. Dr. Harald Ritz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2015<set>NachModul</set></pattern><template>Modulname: Praktikum Wirtschaftsinformatik--Kurzbeschreibung: Teamorientierte Entwicklung von Gesch�ftsanwendungen mit aktuellen Themen und Technologien.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2015<set>NachModul</set></pattern><template>Modulname: Praktikum Wirtschaftsinformatik  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2015<set>NachModul</set></pattern><template>Modulname: Praktikum Wirtschaftsinformatik  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Praktische Elektronik und Prototypenentwicklung<set>NachModul</set></pattern><template>Modulname: Praktische Elektronik und Prototypenentwicklung   --Modulnummer:II2014</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2014<set>NachModul</set></pattern><template>Modulname: Praktische Elektronik und Prototypenentwicklung --Modulverantwortliche/r: Prof. Dr. Ing. Diethelm Bienhaus</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2014<set>NachModul</set></pattern><template>Modulname: Praktische Elektronik und Prototypenentwicklung--Kurzbeschreibung: Das Modul behandelt die grundlegenden Elemente der digitalen und analogen Elektrotechnik. Darauf aufbauend werden Kompetenzen in der Entwicklung prototypischer Schaltungen geschaffen. Dabei wird besonders Wert auf typische Schaltungen f�r die Anbindung von Sensorik / Aktorik an Mikrocontroller gelegt.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2014<set>NachModul</set></pattern><template>Modulname: Praktische Elektronik und Prototypenentwicklung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2014<set>NachModul</set></pattern><template>Modulname: Praktische Elektronik und Prototypenentwicklung  --Voraussetzungen: MN1008 Naturwissenschaftliche und technische Grundlagen,</template></category>
+<category><pattern><set>VorModul</set>Pr�sentationstechniken<set>NachModul</set></pattern><template>Modulname: Pr�sentationstechniken   --Modulnummer:SK2014</template></category>
+<category><pattern><set>VerantwortlichModul</set>SK2014<set>NachModul</set></pattern><template>Modulname: Pr�sentationstechniken --Modulverantwortliche/r: Prof. Silke Bock</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>SK2014<set>NachModul</set></pattern><template>Modulname: Pr�sentationstechniken--Kurzbeschreibung: Neurologische Grundlagen; Einf�hrung in formal-verbale und nonverbale Rhetorik; Kommunikationsmethoden, Feedback, Selbst- und Fremdbild; Einf�hrung in die Pers�nlichkeitspsychologie.</template></category>
+<category><pattern><set>AufwandMOdul</set>SK2014<set>NachModul</set></pattern><template>Modulname: Pr�sentationstechniken  --Aufwand: Gesamtaufwand
+3.0 CrP; 90 Stunden, davon etwa 30 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>SK2014<set>NachModul</set></pattern><template>Modulname: Pr�sentationstechniken  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Programmierbare Logik<set>NachModul</set></pattern><template>Modulname: Programmierbare Logik   --Modulnummer:II2006</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2006<set>NachModul</set></pattern><template>Modulname: Programmierbare Logik --Modulverantwortliche/r: Prof. Dr. Bernd M�ller</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2006<set>NachModul</set></pattern><template>Modulname: Programmierbare Logik--Kurzbeschreibung: Das Modul Programmierbare Logik vermittelt einen �berblick �ber moderne Technologien und Methoden zur Realisierung digitaler Systeme mit programmierbaren Logikbausteinen.</template></category>
+<category><pattern><set>AufwandMOdul</set>II2006<set>NachModul</set></pattern><template>Modulname: Programmierbare Logik  --Aufwand: Gesamtaufwand
+3.0 CrP; 90 Stunden, davon etwa 30 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2006<set>NachModul</set></pattern><template>Modulname: Programmierbare Logik  --Voraussetzungen: II1001 Digitaltechnik</template></category>
+<category><pattern><set>VorModul</set>Programmierung interaktiver Systeme<set>NachModul</set></pattern><template>Modulname: Programmierung interaktiver Systeme   --Modulnummer:CS1016</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1016<set>NachModul</set></pattern><template>Modulname: Programmierung interaktiver Systeme --Modulverantwortliche/r: Prof. Dr. Berthold Franzen</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1016<set>NachModul</set></pattern><template>Modulname: Programmierung interaktiver Systeme--Kurzbeschreibung: Dieses Modul f�hrt in die Programmierung interaktiver Desktop-Anwendungen ein, bei denen eine grafische Benutzeroberfl�che entsprechend softwareergonomischer Standards gestaltet wird.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1016<set>NachModul</set></pattern><template>Modulname: Programmierung interaktiver Systeme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 90 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1016<set>NachModul</set></pattern><template>Modulname: Programmierung interaktiver Systeme  --Voraussetzungen: f�r Bachelor Informatik, Bachelor Ingenieur-Informatik, Bachelor Bioinformatik: CS1013 Objektorientierte Programmierung CS1014 Grundlagen der Informatik
+f�r Bachelor Social Media Systems: IT1002 Webbasierte Programmierung 2</template></category>
+<category><pattern><set>VorModul</set>Projekt - Industrie 4.0 und Digitalisierung<set>NachModul</set></pattern><template>Modulname: Projekt - Industrie 4.0 und Digitalisierung   --Modulnummer:CS2358</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2358<set>NachModul</set></pattern><template>Modulname: Projekt - Industrie 4.0 und Digitalisierung --Modulverantwortliche/r: Prof. Dr. Christian �berall</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2358<set>NachModul</set></pattern><template>Modulname: Projekt - Industrie 4.0 und Digitalisierung--Kurzbeschreibung: In der Veranstaltung sollen Studierende unterschiedlicher Fachbereiche ein interdisziplin�res Projekt Industrie 4.0 / Digitalisierung ein umsetzen. Dabei sollen die Fachkompetenzen der Studierenden f�r das Projekt genutzt und angewendet werden, um ein Projekt unter realen Bedingungen umzusetzen. Bei dem interdisziplin�ren Projekt �bernehmen die Studierenden die Implementierung der funktionalen und nichtfunktionalen Anforderungen des Projekts.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2358<set>NachModul</set></pattern><template>Modulname: Projekt - Industrie 4.0 und Digitalisierung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2358<set>NachModul</set></pattern><template>Modulname: Projekt - Industrie 4.0 und Digitalisierung  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Projektentwicklung mit Kotlin<set>NachModul</set></pattern><template>Modulname: Projektentwicklung mit Kotlin   --Modulnummer:CS2361</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2361<set>NachModul</set></pattern><template>Modulname: Projektentwicklung mit Kotlin --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2361<set>NachModul</set></pattern><template>Modulname: Projektentwicklung mit Kotlin--Kurzbeschreibung: Die Studierenden:
+kennen die Sprachkonzepte und deren Umsetzung in der Programmiersprache �Kotlin�.
+kennen Frameworks zur Entwicklung von Kotlin-Anwendungen z.B. vaadin, ktor, �
+k�nnen einfache Kotlin-Anwendungen client- und serverseitig entwickeln.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2361<set>NachModul</set></pattern><template>Modulname: Projektentwicklung mit Kotlin  --Aufwand: Semesterwochenstunden
+4</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2361<set>NachModul</set></pattern><template>Modulname: Projektentwicklung mit Kotlin  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Projektmanagement<set>NachModul</set></pattern><template>Modulname: Projektmanagement   --Modulnummer:BA1005</template></category>
+<category><pattern><set>VerantwortlichModul</set>BA1005<set>NachModul</set></pattern><template>Modulname: Projektmanagement --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>BA1005<set>NachModul</set></pattern><template>Modulname: Projektmanagement--Kurzbeschreibung: Diese Veranstaltung vermittelt Grundlagen und Anwendungen des Projektmanagement.</template></category>
+<category><pattern><set>AufwandMOdul</set>BA1005<set>NachModul</set></pattern><template>Modulname: Projektmanagement  --Aufwand: Gesamtaufwand
+3.0 CrP; 90 Stunden, davon etwa 30 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>BA1005<set>NachModul</set></pattern><template>Modulname: Projektmanagement  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Projektmanagement erleben<set>NachModul</set></pattern><template>Modulname: Projektmanagement erleben   --Modulnummer:BA2001</template></category>
+<category><pattern><set>VerantwortlichModul</set>BA2001<set>NachModul</set></pattern><template>Modulname: Projektmanagement erleben --Modulverantwortliche/r: Prof. Dr. Bettina Just</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>BA2001<set>NachModul</set></pattern><template>Modulname: Projektmanagement erleben--Kurzbeschreibung: Die Studierenden erleben Projektmanagement in einem fiktiven Unternehmen. Das Modul macht klassisches, agiles und systemisches Projektmanagement anhand eines Planspiels erlebbar.</template></category>
+<category><pattern><set>AufwandMOdul</set>BA2001<set>NachModul</set></pattern><template>Modulname: Projektmanagement erleben  --Aufwand: Gesamtaufwand
+3.0 CrP; 90 Stunden, davon etwa 28 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>BA2001<set>NachModul</set></pattern><template>Modulname: Projektmanagement erleben  --Voraussetzungen: Wahlpflichtmodul: Bachelor Informatik, Bachelor Social Media Systems</template></category>
+<category><pattern><set>VorModul</set>Projektphase<set>NachModul</set></pattern><template>Modulname: Projektphase   --Modulnummer:CS3004</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS3004<set>NachModul</set></pattern><template>Modulname: Projektphase --Modulverantwortliche/r: Prof. Dr. Burkhardt Renz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS3004<set>NachModul</set></pattern><template>Modulname: Projektphase--Kurzbeschreibung: Die Ziele der Projektphase sind in der Ordnung f�r die Projektphase geregelt. Die Studierenden k�nnen selbstst�ndig ein Thema nach wissenschaftlichen Gesichtspunkten bearbeiten. Sie haben Einblicke in die organisatorischen Strukturen und betriebswirtschaftlichen Abl�ufe der Ausbildungsstelle und sind auf die Anforderungen der Bachelorarbeit vorbereitet.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS3004<set>NachModul</set></pattern><template>Modulname: Projektphase  --Aufwand: Semesterwochenstunden
+2</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS3004<set>NachModul</set></pattern><template>Modulname: Projektphase  --Voraussetzungen: Wahlpflichtmodul: Bachelor Informatik, Bachelor Social Media Systems</template></category>
+<category><pattern><set>VorModul</set>Projektseminar<set>NachModul</set></pattern><template>Modulname: Projektseminar   --Modulnummer:CS3005</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS3005<set>NachModul</set></pattern><template>Modulname: Projektseminar --Modulverantwortliche/r: Prof. Dr. Burkhardt Renz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS3005<set>NachModul</set></pattern><template>Modulname: Projektseminar--Kurzbeschreibung: Die Studierenden k�nnen die Ergebnisse ihrer Projektphase in einer klar strukturierten Weise m�ndlich und schriftlich darstellen, sie k�nnen komplexe Sachverhalte gut erl�utern.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS3005<set>NachModul</set></pattern><template>Modulname: Projektseminar  --Aufwand: Semesterwochenstunden
+2</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS3005<set>NachModul</set></pattern><template>Modulname: Projektseminar  --Voraussetzungen: Wahlpflichtmodul: Bachelor Informatik, Bachelor Social Media Systems</template></category>
+<category><pattern><set>VorModul</set>Rechnerarchitektur<set>NachModul</set></pattern><template>Modulname: Rechnerarchitektur   --Modulnummer:CS2319</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2319<set>NachModul</set></pattern><template>Modulname: Rechnerarchitektur --Modulverantwortliche/r: Prof. Dr. Bernd M�ller</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2319<set>NachModul</set></pattern><template>Modulname: Rechnerarchitektur--Kurzbeschreibung: Das Modul Rechnerarchitektur vermittelt einen �berblick �ber den prinzipiellen Aufbau, die elementare Funktionsweise und die Organisation eines Rechners und seiner Peripherie.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2319<set>NachModul</set></pattern><template>Modulname: Rechnerarchitektur  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2319<set>NachModul</set></pattern><template>Modulname: Rechnerarchitektur  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Rechnernetze und Einf�hrung in verteilte Systeme<set>NachModul</set></pattern><template>Modulname: Rechnernetze und Einf�hrung in verteilte Systeme   --Modulnummer:CS1028</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1028<set>NachModul</set></pattern><template>Modulname: Rechnernetze und Einf�hrung in verteilte Systeme --Modulverantwortliche/r: Prof. Dr. Uwe Meyer</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1028<set>NachModul</set></pattern><template>Modulname: Rechnernetze und Einf�hrung in verteilte Systeme--Kurzbeschreibung: Dieses Modul erkl�rt den Aufbau von Rechnernetzen und verteilten Systemen anhand eines Schichtenmodells ISO/OSI, die Funktionsweise des Internets und seiner wichtigsten Dienste und gibt eine Einf�hrung in die wichtigsten Konzepte verteilter Systeme.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1028<set>NachModul</set></pattern><template>Modulname: Rechnernetze und Einf�hrung in verteilte Systeme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1028<set>NachModul</set></pattern><template>Modulname: Rechnernetze und Einf�hrung in verteilte Systeme  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Recht f�r Informatiker/innen<set>NachModul</set></pattern><template>Modulname: Recht f�r Informatiker/innen   --Modulnummer:SK1005</template></category>
+<category><pattern><set>VerantwortlichModul</set>SK1005<set>NachModul</set></pattern><template>Modulname: Recht f�r Informatiker/innen --Modulverantwortliche/r: Prof. Dr. Alexander Dworschak</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>SK1005<set>NachModul</set></pattern><template>Modulname: Recht f�r Informatiker/innen--Kurzbeschreibung: Die Studierenden haben ein Bewusstsein f�r Rechtsfragen und kennen m�gliche rechtliche Implikationen ihres sp�teren Arbeitsumfeldes. Dazu geh�ren insbesondere die Kenntnisse �ber Grundlagen des B�rgerlichen Gesetzbuchs BGB sowie rechtliche Aspekte der Informatik.</template></category>
+<category><pattern><set>AufwandMOdul</set>SK1005<set>NachModul</set></pattern><template>Modulname: Recht f�r Informatiker/innen  --Aufwand: Semesterwochenstunden
+2</template></category>
+<category><pattern><set>VoraussetzungenModul</set>SK1005<set>NachModul</set></pattern><template>Modulname: Recht f�r Informatiker/innen  --Voraussetzungen: Keine</template></category>
+<category><pattern><set>VorModul</set>Requirements Engineering<set>NachModul</set></pattern><template>Modulname: Requirements Engineering   --Modulnummer:CS2360</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2360<set>NachModul</set></pattern><template>Modulname: Requirements Engineering --Modulverantwortliche/r: Prof. Dr. Harald Ritz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2360<set>NachModul</set></pattern><template>Modulname: Requirements Engineering--Kurzbeschreibung: Eine Anforderungsanalyse entscheidet �ber den Erfolg eines Projektes oder Produktes. Sie nimmt eine zentrale Stellung in der Systementwicklung ein. Das Modul �Requirements Engineering� behandelt den Prozess, Anforderungen an Systeme zu erheben und ihre st�ndige Ver�nderung zu managen. Es vermittelt Strategien zur pragmatischen Umsetzung.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2360<set>NachModul</set></pattern><template>Modulname: Requirements Engineering  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2360<set>NachModul</set></pattern><template>Modulname: Requirements Engineering  --Voraussetzungen: Kenntnisse von Softwareentwicklungsprozessen w�ren w�nschenswert.</template></category>
+<category><pattern><set>VorModul</set>Ruby on Rails<set>NachModul</set></pattern><template>Modulname: Ruby on Rails   --Modulnummer:CS2320</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2320<set>NachModul</set></pattern><template>Modulname: Ruby on Rails --Modulverantwortliche/r: Prof. Dr. Alexander Dworschak</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2320<set>NachModul</set></pattern><template>Modulname: Ruby on Rails--Kurzbeschreibung: Ruby On Rails ist eine Einf�hrung in die objektorientierte Programmiersprache Ruby und das Framework Ruby on Rails.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2320<set>NachModul</set></pattern><template>Modulname: Ruby on Rails  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2320<set>NachModul</set></pattern><template>Modulname: Ruby on Rails  --Voraussetzungen: Eigenes Notebook, Linuxkenntnisse und grundlegende Kenntnisse in folgenden Technologien und Techniken:
+Objektorientierte Programmierung OOP,
+Datenbankmanagementsysteme DBMS,
+Hypertext Markup Language HTML,
+Cascading Stylesheets CSS,
+Version Control Systems VCS wie z.B. Git</template></category>
+<category><pattern><set>VorModul</set>SAP R/3 - Einf�hrung in ABAP<set>NachModul</set></pattern><template>Modulname: SAP R/3 - Einf�hrung in ABAP   --Modulnummer:CS2330</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2330<set>NachModul</set></pattern><template>Modulname: SAP R/3 - Einf�hrung in ABAP --Modulverantwortliche/r: Prof. Dr. Peter Hohmann</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2330<set>NachModul</set></pattern><template>Modulname: SAP R/3 - Einf�hrung in ABAP--Kurzbeschreibung: Reportprogrammierung in SAP/R3 mit ABAP.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2330<set>NachModul</set></pattern><template>Modulname: SAP R/3 - Einf�hrung in ABAP  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2330<set>NachModul</set></pattern><template>Modulname: SAP R/3 - Einf�hrung in ABAP  --Voraussetzungen: Programmierkenntnisse</template></category>
+<category><pattern><set>VorModul</set>Secure Software Engineering<set>NachModul</set></pattern><template>Modulname: Secure Software Engineering   --Modulnummer:CS2348</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2348<set>NachModul</set></pattern><template>Modulname: Secure Software Engineering --Modulverantwortliche/r: Dr. habil. Frank Kammer</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2348<set>NachModul</set></pattern><template>Modulname: Secure Software Engineering--Kurzbeschreibung: Sicheres Deployment, Analysewerkzeuge, typische Sicherheitsl�cken und Verschl�sselungssysteme</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2348<set>NachModul</set></pattern><template>Modulname: Secure Software Engineering  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2348<set>NachModul</set></pattern><template>Modulname: Secure Software Engineering  --Voraussetzungen: Informatik B.Sc. 2010
+Datenbanksysteme CS1020
+Ingenieur-Informatik B.Sc. 2010
+Datenbanksysteme CS1020
+Social Media Systems B.Sc. 2016
+Datenbanksysteme CS1020
+Webbasierte Programmierung 2 IT1002</template></category>
+<category><pattern><set>VorModul</set>Serverarchitektur und Virtualisierung<set>NachModul</set></pattern><template>Modulname: Serverarchitektur und Virtualisierung   --Modulnummer:CS2334</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2334<set>NachModul</set></pattern><template>Modulname: Serverarchitektur und Virtualisierung --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2334<set>NachModul</set></pattern><template>Modulname: Serverarchitektur und Virtualisierung--Kurzbeschreibung: Die Veranstaltung soll die Teilnehmer in die Lage versetzen, sich in der realen und virtuellen Rechnerwelt zu orientieren. Anhand von Bedarfsanalysen und verschiedener Konzepte sollen Wege f�r eine Virtualisierung aufgezeigt werden. Neben den Vorlesungen sollen praktische Erfahrungen in Laborumgebungen aufgebaut und untersucht werden.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2334<set>NachModul</set></pattern><template>Modulname: Serverarchitektur und Virtualisierung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2334<set>NachModul</set></pattern><template>Modulname: Serverarchitektur und Virtualisierung  --Voraussetzungen: Informatik B.Sc. 2010
+Datenbanksysteme CS1020
+Ingenieur-Informatik B.Sc. 2010
+Datenbanksysteme CS1020
+Social Media Systems B.Sc. 2016
+Datenbanksysteme CS1020
+Webbasierte Programmierung 2 IT1002</template></category>
+<category><pattern><set>VorModul</set>Skriptsprachen in der Bioinformatik<set>NachModul</set></pattern><template>Modulname: Skriptsprachen in der Bioinformatik   --Modulnummer:BI1012</template></category>
+<category><pattern><set>VerantwortlichModul</set>BI1012<set>NachModul</set></pattern><template>Modulname: Skriptsprachen in der Bioinformatik --Modulverantwortliche/r: Prof. Dr. Heinz-Uwe Hobohm</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>BI1012<set>NachModul</set></pattern><template>Modulname: Skriptsprachen in der Bioinformatik--Kurzbeschreibung: Unix und Skriptsprachen mit Fokus auf bioinformatische Anwendungen</template></category>
+<category><pattern><set>AufwandMOdul</set>BI1012<set>NachModul</set></pattern><template>Modulname: Skriptsprachen in der Bioinformatik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>BI1012<set>NachModul</set></pattern><template>Modulname: Skriptsprachen in der Bioinformatik  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Softwareentwicklungsprozesse<set>NachModul</set></pattern><template>Modulname: Softwareentwicklungsprozesse   --Modulnummer:CS2314</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2314<set>NachModul</set></pattern><template>Modulname: Softwareentwicklungsprozesse --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2314<set>NachModul</set></pattern><template>Modulname: Softwareentwicklungsprozesse--Kurzbeschreibung: Diese Veranstaltung f�hrt Studierende in alle relevanten Phasen und damit verkn�pften T�tigkeiten in einem realen Software-Entwicklungs-Projekt ein.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2314<set>NachModul</set></pattern><template>Modulname: Softwareentwicklungsprozesse  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2314<set>NachModul</set></pattern><template>Modulname: Softwareentwicklungsprozesse  --Voraussetzungen: CS1021 Softwaretechnik
+CS1023 Softwaretechnik-Projekt</template></category>
+<category><pattern><set>VorModul</set>Softwaretechnik<set>NachModul</set></pattern><template>Modulname: Softwaretechnik   --Modulnummer:CS1021</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1021<set>NachModul</set></pattern><template>Modulname: Softwaretechnik --Modulverantwortliche/r: Prof. Dr. Dominikus Herzberg</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1021<set>NachModul</set></pattern><template>Modulname: Softwaretechnik--Kurzbeschreibung: Einf�hrung in die Softwaretechnik mit Schwerpunkt Objektorientierung.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1021<set>NachModul</set></pattern><template>Modulname: Softwaretechnik  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1021<set>NachModul</set></pattern><template>Modulname: Softwaretechnik  --Voraussetzungen: Voraussetzungen f�r Bachelor Informatik, Bachelor Ingenieur-Informatik, Bachelor Bioinformatik: CS1013 Objektorientierte Programmierung, CS1017 Algorithmen und Datenstrukturen, vertiefte Kenntnisse der objektorientierten Programmierung, beispielsweise zu erbringen durch das Modul IT2500 Objektorientierte Programmierung f�r Quereinsteiger
+Voraussetzungen f�r Bachelor Social Media Systems: IT1002 Webbasierte Programmierung 2, CS1017 Algorithmen und Datenstrukturen</template></category>
+<category><pattern><set>VorModul</set>Softwaretechnik-Projekt<set>NachModul</set></pattern><template>Modulname: Softwaretechnik-Projekt   --Modulnummer:CS1023</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1023<set>NachModul</set></pattern><template>Modulname: Softwaretechnik-Projekt --Modulverantwortliche/r: Prof. Dr. Burkhardt Renz</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1023<set>NachModul</set></pattern><template>Modulname: Softwaretechnik-Projekt--Kurzbeschreibung: Die Studierenden sind in der Lage in Kleingruppen von etwa 4 Personen ein gr��eres Softwareentwicklungsprojekt selbstst�ndig zu planen und durchzuf�hren. Die Studierenden wissen �ber die Notwendigkeit einer systematischen Vorgehensweise wie z.B. Projektplanung und verfolgung, Konfigurationsmanagement, Qualit�tssicherung, etc. Sie verstehen, dass die Erstellung von Entwicklungsdokumenten, schriftliche Schnittstellenabsprachen insb. Softwareergonomie unabdingbare Voraussetzungen f�r eine arbeitsteilige Vorgehensweise bei der SoftwareErstellung sind. Sie sind in der Lage in einem Team konstruktiv und kritisch zusammenzuarbeiten. Sie k�nnen ihre Ergebnisse einem �Kunden� pr�sentieren.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1023<set>NachModul</set></pattern><template>Modulname: Softwaretechnik-Projekt  --Aufwand: Semesterwochenstunden
+4</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1023<set>NachModul</set></pattern><template>Modulname: Softwaretechnik-Projekt  --Voraussetzungen: Informatik B.Sc. 2010
+Datenbanksysteme CS1020
+Softwaretechnik CS1021
+Bioinformatik B.Sc. 2012
+Datenbanksysteme CS1020
+Softwaretechnik CS1021
+Ingenieur-Informatik B.Sc. 2010
+Datenbanksysteme CS1020
+Softwaretechnik CS1021
+Social Media Systems B.Sc. 2016
+Datenbanksysteme CS1020
+Softwaretechnik CS1021</template></category>
+<category><pattern><set>VorModul</set>Statistik und Datenanalyse<set>NachModul</set></pattern><template>Modulname: Statistik und Datenanalyse   --Modulnummer:MN1017</template></category>
+<category><pattern><set>VerantwortlichModul</set>MN1017<set>NachModul</set></pattern><template>Modulname: Statistik und Datenanalyse --Modulverantwortliche/r: Prof. Dr. Matthias Gundlach</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>MN1017<set>NachModul</set></pattern><template>Modulname: Statistik und Datenanalyse--Kurzbeschreibung: Kurs in beschreibender und schlie�ender Statistik unter Einbeziehung von Grundlagen der Wahrscheinlichkeitstheorie und unter Verwendung der Skriptsprache R</template></category>
+<category><pattern><set>AufwandMOdul</set>MN1017<set>NachModul</set></pattern><template>Modulname: Statistik und Datenanalyse  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>MN1017<set>NachModul</set></pattern><template>Modulname: Statistik und Datenanalyse  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Suchmaschinentechnologie<set>NachModul</set></pattern><template>Modulname: Suchmaschinentechnologie   --Modulnummer:CS2344</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2344<set>NachModul</set></pattern><template>Modulname: Suchmaschinentechnologie --Modulverantwortliche/r: Prof. Dr. Alexander Dworschak</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2344<set>NachModul</set></pattern><template>Modulname: Suchmaschinentechnologie--Kurzbeschreibung: Technologien zur Implementierung einer Suchmaschine</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2344<set>NachModul</set></pattern><template>Modulname: Suchmaschinentechnologie  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2344<set>NachModul</set></pattern><template>Modulname: Suchmaschinentechnologie  --Voraussetzungen: CS1023 und CS1024, CS1017 und CS1019 hilfreich</template></category>
+<category><pattern><set>VorModul</set>Swift-Programmierung unter iOS<set>NachModul</set></pattern><template>Modulname: Swift-Programmierung unter iOS   --Modulnummer:CS2365</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2365<set>NachModul</set></pattern><template>Modulname: Swift-Programmierung unter iOS --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2365<set>NachModul</set></pattern><template>Modulname: Swift-Programmierung unter iOS--Kurzbeschreibung: Die Studierenden beherrschen Swift und Xcode als Entwicklungswerkzeuge zur Anwendungsentwicklung von iOS Apps. Sie verstehen den Aufbau einer mobilen Anwendung und k�nnen komponentenweise Anforderungen umsetzen. Sie k�nnen moderne Paradigmen wie Paketmanagement und funktionale Programmierung in gemeinsamen Projekten einsetzen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2365<set>NachModul</set></pattern><template>Modulname: Swift-Programmierung unter iOS  --Aufwand: Semesterwochenstunden
+4</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2365<set>NachModul</set></pattern><template>Modulname: Swift-Programmierung unter iOS  --Voraussetzungen: Informatik B.Sc. 2010
+Programmierung interaktiver Systeme CS1016
+Ingenieur-Informatik B.Sc. 2010
+Programmierung interaktiver Systeme CS1016
+Social Media Systems B.Sc. 2016
+Programmierung interaktiver Systeme CS1016
+Webbasierte Programmierung 2 IT1002</template></category>
+<category><pattern><set>VorModul</set>System-Entwicklung in der Automobilbranche<set>NachModul</set></pattern><template>Modulname: System-Entwicklung in der Automobilbranche   --Modulnummer:II2010</template></category>
+<category><pattern><set>VerantwortlichModul</set>II2010<set>NachModul</set></pattern><template>Modulname: System-Entwicklung in der Automobilbranche --Modulverantwortliche/r: Prof. Dr. Berthold Franzen</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>II2010<set>NachModul</set></pattern><template>Modulname: System-Entwicklung in der Automobilbranche--Kurzbeschreibung: Anforderungen an Systeme in Fahrzeugen, Zerlegungstechniken, Entwurfsmethoden und Middleware-Plattformen f�r solche Systeme mit praxisnahen Beispielen</template></category>
+<category><pattern><set>AufwandMOdul</set>II2010<set>NachModul</set></pattern><template>Modulname: System-Entwicklung in der Automobilbranche  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>II2010<set>NachModul</set></pattern><template>Modulname: System-Entwicklung in der Automobilbranche  --Voraussetzungen: keine</template></category>
+<category><pattern><set>VorModul</set>Systemprogrammierung<set>NachModul</set></pattern><template>Modulname: Systemprogrammierung   --Modulnummer:CS2324</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2324<set>NachModul</set></pattern><template>Modulname: Systemprogrammierung --Modulverantwortliche/r: Prof. Dr. Aristovoulos Christidis</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2324<set>NachModul</set></pattern><template>Modulname: Systemprogrammierung--Kurzbeschreibung: Aspekte der Struktur und Funktionsweise von Software-Plattformen und -Umgebungen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2324<set>NachModul</set></pattern><template>Modulname: Systemprogrammierung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2324<set>NachModul</set></pattern><template>Modulname: Systemprogrammierung  --Voraussetzungen: Grundkenntnisse in C-Programmierung</template></category>
+<category><pattern><set>VorModul</set>Technisches Englisch<set>NachModul</set></pattern><template>Modulname: Technisches Englisch   --Modulnummer:SK2001</template></category>
+<category><pattern><set>VerantwortlichModul</set>SK2001<set>NachModul</set></pattern><template>Modulname: Technisches Englisch --Modulverantwortliche/r: Ronald Kresta</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>SK2001<set>NachModul</set></pattern><template>Modulname: Technisches Englisch--Kurzbeschreibung: After the course, students are able to communicate in English about simple degree-related topics and general topics relevant for their future careers.
+Students learn important social parameters in professional communication and can improve their interpersonal skills.</template></category>
+<category><pattern><set>AufwandMOdul</set>SK2001<set>NachModul</set></pattern><template>Modulname: Technisches Englisch  --Aufwand: Semesterwochenstunden
+2</template></category>
+<category><pattern><set>VoraussetzungenModul</set>SK2001<set>NachModul</set></pattern><template>Modulname: Technisches Englisch  --Voraussetzungen: Grundkenntnisse in C-Programmierung</template></category>
+<category><pattern><set>VorModul</set>Unix as a Programming Environment<set>NachModul</set></pattern><template>Modulname: Unix as a Programming Environment   --Modulnummer:CS2010</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2010<set>NachModul</set></pattern><template>Modulname: Unix as a Programming Environment --Modulverantwortliche/r: Prof. Dr. Albert Schneider</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2010<set>NachModul</set></pattern><template>Modulname: Unix as a Programming Environment--Kurzbeschreibung: Basic Unix commands, filters, pipes, file system, inodes, shell scripts, makefiles, working with pointers, awk, TeX, system calls.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2010<set>NachModul</set></pattern><template>Modulname: Unix as a Programming Environment  --Aufwand: Gesamtaufwand
+9.0 CrP; 270 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2010<set>NachModul</set></pattern><template>Modulname: Unix as a Programming Environment  --Voraussetzungen: CS1013 Objektorientierte Programmierung</template></category>
+<category><pattern><set>VorModul</set>Unternehmensorganisation<set>NachModul</set></pattern><template>Modulname: Unternehmensorganisation   --Modulnummer:EB2006</template></category>
+<category><pattern><set>VerantwortlichModul</set>EB2006<set>NachModul</set></pattern><template>Modulname: Unternehmensorganisation --Modulverantwortliche/r: Prof. Dr. Armin Wagenknecht</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>EB2006<set>NachModul</set></pattern><template>Modulname: Unternehmensorganisation--Kurzbeschreibung: In dieser Veranstaltung werden die Prinzipien der Organisationsgestaltung unter Einsatz von Organisationsmethoden und -techniken vermittelt.</template></category>
+<category><pattern><set>AufwandMOdul</set>EB2006<set>NachModul</set></pattern><template>Modulname: Unternehmensorganisation  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>EB2006<set>NachModul</set></pattern><template>Modulname: Unternehmensorganisation  --Voraussetzungen: Voraussetzungen f�r Bachelor Informatik, Bachelor Wirtschaftsinformatik: BA1004 DV-orientierte Betriebswirtschaftslehre
+Voraussetzungen f�r Bachelor Social Media Systems: EB1002 BWL und Informationssysteme 2</template></category>
+<category><pattern><set>VorModul</set>Verteilte Anwendungsentwicklung<set>NachModul</set></pattern><template>Modulname: Verteilte Anwendungsentwicklung   --Modulnummer:CS2369</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2369<set>NachModul</set></pattern><template>Modulname: Verteilte Anwendungsentwicklung --Modulverantwortliche/r: Prof. Dr. Klaus-Dieter Quibeldey-Cirkel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2369<set>NachModul</set></pattern><template>Modulname: Verteilte Anwendungsentwicklung--Kurzbeschreibung: Um in verteilten Entwicklerteams gemeinsam an einer Code-Basis zu arbeiten, bedarf es der kollaborativen Versionsverwaltung. Die IT-Standards sind hier Git und GitLab. Im Modul werden die Studierenden mit den Herausforderungen der Anwendungsentwicklung im virtuellen Raum vertraut gemacht.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2369<set>NachModul</set></pattern><template>Modulname: Verteilte Anwendungsentwicklung  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2369<set>NachModul</set></pattern><template>Modulname: Verteilte Anwendungsentwicklung  --Voraussetzungen: Wahlpflichtmodul: Bachelor Informatik, Bachelor Ingenieur-Informatik</template></category>
+<category><pattern><set>VorModul</set>Web Programming Weeks 1<set>NachModul</set></pattern><template>Modulname: Web Programming Weeks 1   --Modulnummer:CS2335</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS2335<set>NachModul</set></pattern><template>Modulname: Web Programming Weeks 1 --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS2335<set>NachModul</set></pattern><template>Modulname: Web Programming Weeks 1--Kurzbeschreibung: Die Studierenden haben einen �berblick �ber die wichtigsten Aspekte webbasierter Systeme. Sie kennen ein Web-Framework und sind in der Lage, damit eigenst�ndig einfache Anwendungen zu entwickeln. Die Studierenden haben ein grundlegendes Verst�ndnis f�r die sozialen und methodischen F�higkeiten der projektorientierten Entwicklung unter Verwendung agiler Prinzipien.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS2335<set>NachModul</set></pattern><template>Modulname: Web Programming Weeks 1  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS2335<set>NachModul</set></pattern><template>Modulname: Web Programming Weeks 1  --Voraussetzungen: Diese Veranstaltung setzt Programmierkenntnisse, insbesondere im Bereich der komponentenbasierten, objektorientierten Programmierung voraus. Zus�tzlich sollte die F�higkeit zum eigenverantwortlichen, teamorientierten Entwickeln vorhanden sein.</template></category>
+<category><pattern><set>VorModul</set>Webbasierte Systeme<set>NachModul</set></pattern><template>Modulname: Webbasierte Systeme   --Modulnummer:CS1024</template></category>
+<category><pattern><set>VerantwortlichModul</set>CS1024<set>NachModul</set></pattern><template>Modulname: Webbasierte Systeme --Modulverantwortliche/r: Prof. Dr. Peter Kneisel</template></category>
+<category><pattern><set>KurzbeschreibungModul</set>CS1024<set>NachModul</set></pattern><template>Modulname: Webbasierte Systeme--Kurzbeschreibung: Das Modul vermittelt technische und methodische Grundlagen f�r die Entwicklung von Web-Applikationen.</template></category>
+<category><pattern><set>AufwandMOdul</set>CS1024<set>NachModul</set></pattern><template>Modulname: Webbasierte Systeme  --Aufwand: Gesamtaufwand
+6.0 CrP; 180 Stunden, davon etwa 60 Stunden Pr�senzzeit.</template></category>
+<category><pattern><set>VoraussetzungenModul</set>CS1024<set>NachModul</set></pattern><template>Modulname: Webbasierte Systeme  --Voraussetzungen: CS1013 Objektorientierte Programmierung
+CS1028 Rechnernetze und Einf�hrung in verteilte Systeme</template></category>
+
+
+</aiml>

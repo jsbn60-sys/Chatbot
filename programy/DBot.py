@@ -1,5 +1,3 @@
-
-
 import discord
 import requests
 import json
@@ -26,9 +24,6 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-    if (message.content == '!reset') or (message.content == '!cookies'):
-        id = itestid()
-        await message.channel.send("Session resetted")
     id = message.author.id
     x = requests.get('http://0.0.0.0:8989/api/rest/v1.0/ask?question=' + message.content + '&userid=' + str(id))
     print(x)

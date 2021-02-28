@@ -1,0 +1,1569 @@
+{
+    "client_context": {
+        "clientid": "sanic",
+        "userid": "208332917015969803",
+        "botid": "bot",
+        "brainid": "brain",
+        "depth": 0
+    },
+    "questions": [
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Corona"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Wann",
+                        "beginnen",
+                        "die",
+                        "Vorlesungszeiten"
+                    ],
+                    "response": "Die Vorlesungszeiten endete am 29.01.2021 und das im neuen Semester (SoSe21) geht es ab dem 06.04.2021 wieder mit Vorlesungen los.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:33:08",
+                        "sentence": "Wann beginnen die Vorlesungszeiten",
+                        "response": "Die Vorlesungszeiten endete am 29.01.2021 und das im neuen Semester (SoSe21) geht es ab dem 06.04.2021 wieder mit Vorlesungen los.",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [#]",
+                                "words": [
+                                    "Wann",
+                                    "beginnen",
+                                    "die"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Vorlesungszeiten]",
+                                "words": [
+                                    "Vorlesungszeiten"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [#]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "de",
+                                    "verweisen"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Ich",
+                        "bin",
+                        "Marius"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hallo"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Ich",
+                        "hei\u00dfe",
+                        "Marius"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Was",
+                        "wei\u00dft",
+                        "du",
+                        "\u00fcber",
+                        "mich"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hi"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hallo"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Was",
+                        "bist",
+                        "du"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Wann",
+                        "war",
+                        "Corona"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Wann",
+                        "wurde",
+                        "die",
+                        "THM",
+                        "gegr\u00fcndet"
+                    ],
+                    "response": "Am 14. Januar 1838 wurde die THM (damals noch Schule f\u00fcr technisches Zeichnen) in Gie\u00dfen gegr\u00fcndet.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:36:02",
+                        "sentence": "Wann wurde die THM gegr\u00fcndet",
+                        "response": "Am 14. Januar 1838 wurde die THM (damals noch Schule f\u00fcr technisches Zeichnen) in Gie\u00dfen gegr\u00fcndet.",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "WORD [Wann]",
+                                "words": [
+                                    "Wann"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [wurde]",
+                                "words": [
+                                    "wurde"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [die]",
+                                "words": [
+                                    "die"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [THM]",
+                                "words": [
+                                    "THM"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [gegr\u00fcndet]",
+                                "words": [
+                                    "gegr\u00fcndet"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "de",
+                                    "verweisen"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Von",
+                        "wem",
+                        "wurde",
+                        "die",
+                        "THM",
+                        "gegr\u00fcndet"
+                    ],
+                    "response": "Robert Schmidt hat den Standort Gie\u00dfen gegr\u00fcndet.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:36:10",
+                        "sentence": "Von wem wurde die THM gegr\u00fcndet",
+                        "response": "Robert Schmidt hat den Standort Gie\u00dfen gegr\u00fcndet.",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "WORD [Von]",
+                                "words": [
+                                    "Von"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [wem]",
+                                "words": [
+                                    "wem"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [wurde]",
+                                "words": [
+                                    "wurde"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [die]",
+                                "words": [
+                                    "die"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [THM]",
+                                "words": [
+                                    "THM"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [gegr\u00fcndet]",
+                                "words": [
+                                    "gegr\u00fcndet"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "Januar",
+                                    "1838",
+                                    "wurde",
+                                    "die",
+                                    "THM",
+                                    "damals",
+                                    "noch",
+                                    "Schule",
+                                    "f\u00fcr",
+                                    "technisches",
+                                    "Zeichnen",
+                                    "in",
+                                    "Gie\u00dfen",
+                                    "gegr\u00fcndet"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Was",
+                        "wei\u00dft",
+                        "du",
+                        "alles"
+                    ],
+                    "response": "Ich Ich Ich Ich kann dir etwas \u00fcber die Geschichte der THM erz\u00e4hlen. Ich kann dir Fakten zur THM nennen. Ich kann dir Hilfe leisten oder dich entsprechend weiterleiten.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:36:35",
+                        "sentence": "Was wei\u00dft du alles",
+                        "response": "Ich Ich Ich Ich kann dir etwas \u00fcber die Geschichte der THM erz\u00e4hlen. Ich kann dir Fakten zur THM nennen. Ich kann dir Hilfe leisten oder dich entsprechend weiterleiten.",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "WORD [Was]",
+                                "words": [
+                                    "Was"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [wei\u00dft]",
+                                "words": [
+                                    "wei\u00dft"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [du]",
+                                "words": [
+                                    "du"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [alles]",
+                                "words": [
+                                    "alles"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "Robert",
+                                    "Schmidt",
+                                    "hat",
+                                    "den",
+                                    "Standort",
+                                    "Gie\u00dfen",
+                                    "gegr\u00fcndet"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "What",
+                        "did",
+                        "i",
+                        "say"
+                    ],
+                    "response": "you said Was wei\u00dft du alles und davor you said Von wem wurde die THM gegr\u00fcndet",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:37:34",
+                        "sentence": "What did i say",
+                        "response": "you said Was wei\u00dft du alles und davor you said Von wem wurde die THM gegr\u00fcndet",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "WORD [What]",
+                                "words": [
+                                    "What"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [did]",
+                                "words": [
+                                    "did"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [i]",
+                                "words": [
+                                    "i"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [say]",
+                                "words": [
+                                    "say"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "Ich",
+                                    "kann",
+                                    "dir",
+                                    "Hilfe",
+                                    "leisten",
+                                    "oder",
+                                    "dich",
+                                    "entsprechend",
+                                    "weiterleiten"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hi"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Was",
+                        "wei\u00dft",
+                        "du",
+                        "alles"
+                    ],
+                    "response": "Ich kann dir etwas \u00fcber die Geschichte der THM erz\u00e4hlen. Ich kann dir Fakten zur THM nennen. Ich kann dir Hilfe leisten oder dich entsprechend weiterleiten.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:38:04",
+                        "sentence": "Was wei\u00dft du alles",
+                        "response": "Ich kann dir etwas \u00fcber die Geschichte der THM erz\u00e4hlen. Ich kann dir Fakten zur THM nennen. Ich kann dir Hilfe leisten oder dich entsprechend weiterleiten.",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "WORD [Was]",
+                                "words": [
+                                    "Was"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [wei\u00dft]",
+                                "words": [
+                                    "wei\u00dft"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [du]",
+                                "words": [
+                                    "du"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [alles]",
+                                "words": [
+                                    "alles"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "de",
+                                    "verweisen"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Geschichte"
+                    ],
+                    "response": "Die THM wurde 1971 als Fachhochschule gegr\u00fcndet und ist damit eine der j\u00fcngeren hessischen Hochschulen",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:38:12",
+                        "sentence": "Geschichte",
+                        "response": "Die THM wurde 1971 als Fachhochschule gegr\u00fcndet und ist damit eine der j\u00fcngeren hessischen Hochschulen",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [^]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Geschichte]",
+                                "words": [
+                                    "Geschichte"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [^]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "Ich",
+                                    "kann",
+                                    "dir",
+                                    "Hilfe",
+                                    "leisten",
+                                    "oder",
+                                    "dich",
+                                    "entsprechend",
+                                    "weiterleiten"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Vorlesungszeiten"
+                    ],
+                    "response": "Die Vorlesungszeiten endete am 29.01.2021 und das im neuen Semester (SoSe21) geht es ab dem 06.04.2021 wieder mit Vorlesungen los.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:38:20",
+                        "sentence": "Vorlesungszeiten",
+                        "response": "Die Vorlesungszeiten endete am 29.01.2021 und das im neuen Semester (SoSe21) geht es ab dem 06.04.2021 wieder mit Vorlesungen los.",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [#]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Vorlesungszeiten]",
+                                "words": [
+                                    "Vorlesungszeiten"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [#]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "Die",
+                                    "THM",
+                                    "wurde",
+                                    "1971",
+                                    "als",
+                                    "Fachhochschule",
+                                    "gegr\u00fcndet",
+                                    "und",
+                                    "ist",
+                                    "damit",
+                                    "eine",
+                                    "der",
+                                    "j\u00fcngeren",
+                                    "hessischen",
+                                    "Hochschulen"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Corona"
+                    ],
+                    "response": "Aktuell sind alle Zug\u00e4nge zur THM geschlossen, aktuell werden alle Lehrveranstaltungen Online gestaltet. Die THM gibt ihr bestes alle Klausuren unter Hygieneauflagen in Pr\u00e4senz zu schreiben. Noch weitere Fragen zu Corona? Schau mal hier: https://www.thm.de/site/corona-info.html1",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "27/02/2021, 23:38:45",
+                        "sentence": "Corona",
+                        "response": "Aktuell sind alle Zug\u00e4nge zur THM geschlossen, aktuell werden alle Lehrveranstaltungen Online gestaltet. Die THM gibt ihr bestes alle Klausuren unter Hygieneauflagen in Pr\u00e4senz zu schreiben. Noch weitere Fragen zu Corona? Schau mal hier: https://www.thm.de/site/corona-info.html1",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [^]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Corona]",
+                                "words": [
+                                    "Corona"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [^]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "2021",
+                                    "wieder",
+                                    "mit",
+                                    "Vorlesungen",
+                                    "los"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Kein",
+                        "bock",
+                        "auf",
+                        "Uni"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                },
+                {
+                    "words": [
+                        "was",
+                        "ist",
+                        "mit",
+                        "Corona"
+                    ],
+                    "response": "Aktuell sind alle Zug\u00e4nge zur THM geschlossen, aktuell werden alle Lehrveranstaltungen Online gestaltet. Die THM gibt ihr bestes alle Klausuren unter Hygieneauflagen in Pr\u00e4senz zu schreiben. Noch weitere Fragen zu Corona? Schau mal hier: https://www.thm.de/site/corona-info.html1",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "28/02/2021, 11:44:55",
+                        "sentence": "was ist mit Corona",
+                        "response": "Aktuell sind alle Zug\u00e4nge zur THM geschlossen, aktuell werden alle Lehrveranstaltungen Online gestaltet. Die THM gibt ihr bestes alle Klausuren unter Hygieneauflagen in Pr\u00e4senz zu schreiben. Noch weitere Fragen zu Corona? Schau mal hier: https://www.thm.de/site/corona-info.html1",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [^]",
+                                "words": [
+                                    "was",
+                                    "ist",
+                                    "mit"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Corona]",
+                                "words": [
+                                    "Corona"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "ZEROORMORE [^]",
+                                "words": [],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "html1"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 1,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Vorraussetzungen",
+                        "BI1017"
+                    ],
+                    "response": "Modulname: Algorithmen auf Sequenzen --Voraussetzungen: CS1017 Algorithmen und Datenstrukturen,\nProgrammiererfahrung in einer Skriptsprache",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "28/02/2021, 11:56:09",
+                        "sentence": "Vorraussetzungen BI1017",
+                        "response": "Modulname: Algorithmen auf Sequenzen --Voraussetzungen: CS1017 Algorithmen und Datenstrukturen,\nProgrammiererfahrung in einer Skriptsprache",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "SET name=[VORAUSSETZUNGENMODUL]",
+                                "words": [
+                                    "Vorraussetzungen"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [BI1017]",
+                                "words": [
+                                    "BI1017"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "html1"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Wie",
+                        "viele",
+                        "Studentennn",
+                        "studierenden"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hallo",
+                        "Algorithmen",
+                        "auf",
+                        "Sequenzen",
+                        "hallo"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Test",
+                        "Algorithmen",
+                        "auf",
+                        "Sequenzen",
+                        "Test"
+                    ],
+                    "response": "Modulname: Algorithmen auf Sequenzen --Modulnummer:BI1017",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "28/02/2021, 12:00:06",
+                        "sentence": "Test Algorithmen auf Sequenzen Test",
+                        "response": "Modulname: Algorithmen auf Sequenzen --Modulnummer:BI1017",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "SET name=[VORMODUL]",
+                                "words": [
+                                    "Test"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Algorithmen]",
+                                "words": [
+                                    "Algorithmen"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [auf]",
+                                "words": [
+                                    "auf"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Sequenzen]",
+                                "words": [
+                                    "Sequenzen"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "SET name=[NACHMODUL]",
+                                "words": [
+                                    "Test"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "de",
+                                    "verweisen"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hallo",
+                        "Algorithmen",
+                        "auf",
+                        "Sequenzen",
+                        "Test"
+                    ],
+                    "response": "Modulname: Algorithmen auf Sequenzen --Modulnummer:BI1017",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "28/02/2021, 12:00:40",
+                        "sentence": "Hallo Algorithmen auf Sequenzen Test",
+                        "response": "Modulname: Algorithmen auf Sequenzen --Modulnummer:BI1017",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "SET name=[VORMODUL]",
+                                "words": [
+                                    "Hallo"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Algorithmen]",
+                                "words": [
+                                    "Algorithmen"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [auf]",
+                                "words": [
+                                    "auf"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Sequenzen]",
+                                "words": [
+                                    "Sequenzen"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "SET name=[NACHMODUL]",
+                                "words": [
+                                    "Test"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "Modulname",
+                                    "Algorithmen",
+                                    "auf",
+                                    "Sequenzen",
+                                    "Modulnummer",
+                                    "BI1017"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hallo",
+                        "Algorithmen",
+                        "auf",
+                        "Sequenzen",
+                        "Hallo"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Test",
+                        "Algorithmen",
+                        "und",
+                        "Datenstrukturen",
+                        "Test"
+                    ],
+                    "response": "Modulname: Algorithmen und Datenstrukturen --Modulnummer:CS1017",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "28/02/2021, 14:13:50",
+                        "sentence": "Test Algorithmen und Datenstrukturen Test",
+                        "response": "Modulname: Algorithmen und Datenstrukturen --Modulnummer:CS1017",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "SET name=[VORMODUL]",
+                                "words": [
+                                    "Test"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Algorithmen]",
+                                "words": [
+                                    "Algorithmen"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [und]",
+                                "words": [
+                                    "und"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Datenstrukturen]",
+                                "words": [
+                                    "Datenstrukturen"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "SET name=[NACHMODUL]",
+                                "words": [
+                                    "Test"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "de",
+                                    "verweisen"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Test",
+                        "Algorithmen",
+                        "und",
+                        "Datenstrukturen",
+                        "Test"
+                    ],
+                    "response": "Modulname: Algorithmen und Datenstrukturen --Modulnummer:CS1017",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5,
+                    "matched_context": {
+                        "max_search_depth": 100,
+                        "max_search_timeout": 60,
+                        "total_search_start": "28/02/2021, 14:14:05",
+                        "sentence": "Test Algorithmen und Datenstrukturen Test",
+                        "response": "Modulname: Algorithmen und Datenstrukturen --Modulnummer:CS1017",
+                        "matched_nodes": [
+                            {
+                                "type": "Word",
+                                "node": "SET name=[VORMODUL]",
+                                "words": [
+                                    "Test"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Algorithmen]",
+                                "words": [
+                                    "Algorithmen"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [und]",
+                                "words": [
+                                    "und"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "WORD [Datenstrukturen]",
+                                "words": [
+                                    "Datenstrukturen"
+                                ],
+                                "multi_word": false,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Word",
+                                "node": "SET name=[NACHMODUL]",
+                                "words": [
+                                    "Test"
+                                ],
+                                "multi_word": true,
+                                "wild_card": false
+                            },
+                            {
+                                "type": "Topic",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "*"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            },
+                            {
+                                "type": "That",
+                                "node": "ONEORMORE [*]",
+                                "words": [
+                                    "Modulname",
+                                    "Algorithmen",
+                                    "und",
+                                    "Datenstrukturen",
+                                    "Modulnummer",
+                                    "CS1017"
+                                ],
+                                "multi_word": true,
+                                "wild_card": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Verantwortlich",
+                        "CS1017"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Informatik",
+                        "B"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                },
+                {
+                    "words": [
+                        "Sc"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                },
+                {
+                    "words": [
+                        "2010"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                },
+                {
+                    "words": [
+                        "aiml"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 3,
+            "properties": {}
+        }
+    ],
+    "max_histories": 100,
+    "properties": {
+        "topic": "*",
+        "positivity": "0.0",
+        "subjectivity": "0.5"
+    }
+}

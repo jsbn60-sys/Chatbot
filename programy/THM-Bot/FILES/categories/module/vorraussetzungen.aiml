@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+    <category>
+        <pattern>Was sind die Vorraussetzungen für *</pattern>
+        <template>
+            Du benötigtst die Module X X X und X für das Modul <star/>
+        </template>
+    </category>
+    <category>
+        <pattern>Hallo wie gehts dir</pattern>
+        <template>
+            Gut und dir?
+        </template>
+    </category>
+        <category>
+        <pattern>Was weißt du alles#</pattern>
+        <template>
+            Ich kann die viele Infos über die THM und besonders den Informatik Bereich geben!
+        </template>
+    </category>
+    <category>
+        <pattern>Weist du etwas uber Vorraussetzungen zu Modulen #</pattern>
+        <template>
+            Ja natürlich, frag mich einfach zu welchem Modul du die Vorraussetzungen wissen möchtest<set name = "topic">modulvorraussetzungen</set>
+        </template>
+   </category>
+
+   <topic name = "modulvorraussetzungen">
+      <category>
+         <pattern> * </pattern>
+         <template>Kannst du es mir eventuell anders beschreiben?</template>
+      </category>
+      <
+      <category>
+         <pattern> <set>vorsyntax</set> </pattern>
+         <template>Outputttt </template>
+      </category>
+
+   </topic>
+ </aiml>

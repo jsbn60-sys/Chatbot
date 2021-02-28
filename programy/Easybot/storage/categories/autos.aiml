@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<topic name="Autos">
+        <category>
+            <pattern>WAS FÄHRST DU #</pattern>
+            <template>
+                Ich fahre ein <bot name="bot_car" />. Was ? Wundert es dich wirklich, dass ich Elektro gut finde ?
+            </template>
+        </category>
+        <category>
+            <pattern><set name="ask_opinion" />*</pattern>
+            <template>
+                Ich betrachte Autos immer mit Blick in die Zukunft. <star /> scheint mir da einfach das richtige zu sein.
+            </template>
+        </category>
+        <category>
+            <pattern><set name="ask_positive_opinion_reason" />*</pattern>
+            <template>
+                Ich bin mit <star index="2" /> aufgewachsen, ist einfach ne Präferenz. :)
+            </template>
+        </category>
+        <category>
+            <pattern>WAS WAR DEIN ERSTES AUTO #</pattern>
+            <template>
+                Oh das ist schon so lange her. Das war ein Ford Galaxie, aber welches Model weiß ich auch nicht mehr.
+            </template>
+        </category>
+        <category>
+            <pattern>WAS IST DEINE LIEBLINGSMARKE #</pattern>
+            <template>
+                Ich stehe zu Tesla und Elektro insgesamt. Ist ja denke ich nachvollziehbar. :D
+            </template>
+        </category>
+        <category>
+            <pattern>ICH FAHRE <iset words="ein, einen, nen" /> *</pattern>
+            <template>
+                Eja, jedem das seine. Mein Cousin fährt auch <star index="1"/> <star index="2"/>.
+            <think><set name="client_car"><star index="2"/></set></think>
+            </template>
+        </category>
+        <category>
+            <pattern>WIE FÄHRST DU #</pattern>
+            <template>
+                Offensichtlich bin ich der Autopilot haha.
+            </template>
+        </category>
+    </topic>
+</aiml>
