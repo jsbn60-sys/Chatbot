@@ -1,0 +1,32 @@
+{
+    "client_context": {
+        "clientid": "sanic",
+        "userid": "1234567890",
+        "botid": "bot",
+        "brainid": "brain",
+        "depth": 0
+    },
+    "questions": [
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Hi"
+                    ],
+                    "response": "Oh, da muss ich dich leider an die Website THM.de verweisen.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        }
+    ],
+    "max_histories": 100,
+    "properties": {
+        "topic": "*",
+        "positivity": "0.0",
+        "subjectivity": "0.5"
+    }
+}

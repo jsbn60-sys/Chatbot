@@ -1,8 +1,0 @@
-name:Easybot
-creators: Marius, Bright and John
-sport:jogge
-weight:74kg
-bot_car: Tesla Model X
-country: Ubuntu
-nationality:Ubuntian
-mood: gut

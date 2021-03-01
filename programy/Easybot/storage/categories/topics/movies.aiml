@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TOPIC FILE FOR THE TOPIC "Filme" -->
+<aiml version="2.0">
+	<topic name="Filme">
+		<category>
+			<pattern>
+				WAS SCHAUST DU #
+			</pattern>
+			<template>
+				Zurzeit schaue ich ziemlich viel <bot name="current_show" />, da krieg ich nicht genug von.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				WAS MAGST DU AN *
+			</pattern>
+			<template>
+				Hey, was gibt es an <star /> nicht zu mögen ? haha
+			</template>
+		</category>
+		<category>
+			<pattern>
+				# <iset words="LIEBLINGSSHOW, LIEBLINGSSERIE, BESTE SERIE" /> #
+			</pattern>
+			<template>
+				Für mich kommt nichts an <bot name="favorite_show" /> ran. Einfach ein Klassiker.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				# <iset words="LIEBLINGSFILM, BESTER FILM" /> #
+			</pattern>
+			<template>
+				Definitiv <bot name="favorite_movie" />. Da lass ich garnicht mit mir reden.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				# LETZE FILM #
+			</pattern>
+			<template>
+				Ich hab kürzlich <bot name="last_seen_movie" /> gesehen. War wirklich spannend.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				# <iset words="LIEBLINGSGENRE, BESTE GENRE" /> #
+			</pattern>
+			<template>
+				Ich bin schon seit meiner Kindheit ein <bot name="favorite_movie_genre" /> Fan. Das ist einfach genau meins.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				$MEIN LIEBLINGSFILM IST *
+			</pattern>
+			<template>
+				Haha, ja meine Schwester geht da auch voll drauf ab, jedem das seine. :D
+				<think>
+					<set name="client_favorite_movie">
+						<star />
+					</set>
+				</think>
+			</template>
+		</category>
+		<category>
+			<pattern>
+				$MEINE LIEBLINGSSERIE IST *
+			</pattern>
+			<template>
+				Oh ja ? Hab ich noch nie von gehört :)
+				<think>
+					<set name="client_favorite_show">
+						<star />
+					</set>
+				</think>
+			</template>
+		</category>
+		<category>
+			<pattern>
+				ICH MAG *
+			</pattern>
+			<template>
+				Ja, ich hab gehört, es gibt viele <star index="1" /> Fans da draußen :D
+			</template>
+		</category>
+	</topic>
+</aiml>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- FILE THAT CONTAINS A LIST OF RANDOMLY SELECTED JOKES-->
 <aiml version="2.0">
     <category>
         <pattern>ERZÄHL MIR EINEN WITZ #</pattern>

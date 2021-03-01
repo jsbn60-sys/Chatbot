@@ -1,5 +1,5 @@
 console:
-  description: Program-Y Template Console Client
+  description: THM-Bot
   prompt: ">>>"
 
   scheduler:
@@ -130,12 +130,12 @@ console:
 
   bots:
     bot:
-      initial_question: Hi, how can I help you today?
+      initial_question: Hi, wie kann ich dir heute Helfen?
       initial_question_srai: YINITIALQUESTION
-      default_response: Sorry, I don't have an answer for that!
+      default_response: Oh, da muss ich dich leider an die Website THM.de verweisen
       default_response_srai: YEMPTY
       empty_string: YEMPTY
-      exit_response: So long, and thanks for the fish!
+      exit_response: Viel Erfolg!
       exit_response_srai: YEXITRESPONSE
 
       override_properties: true

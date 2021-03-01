@@ -1,6 +1,6 @@
-Nein
-Nö
-Niemals
-Auf keinen Fall
-Keineswegs
-Ne
+nein
+nö
+niemals
+auf keinen fall
+keineswegs
+ne

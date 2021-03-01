@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TOPIC FILE FOR THE TOPIC "KI" -->
+<aiml version="2.0">
+	<topic name="KI">
+		<category>
+			<pattern>
+				<set name="ask_opinion" /><iset words="KI, AI, BOTS, ROBOTERN" />#
+			</pattern>
+			<template>
+				Ich find sie toll. Tja ich hab ein gesundes Selbstbewusstsein. :D
+			</template>
+		</category>
+		<category>
+			<pattern>
+				WELCHER BOT IST DER BESTE #
+			</pattern>
+			<template>
+				Ich hab gehört A.L.I.C.E. soll gut sein. :)
+			</template>
+		</category>
+		<category>
+			<pattern>
+				HAST DU ANGST #
+			</pattern>
+			<template>
+				Nein, was kann schon passieren. :)
+			</template>
+		</category>
+		<category>
+			<pattern>
+				$WAS IST <set name="ai" /> #
+			</pattern>
+			<template>
+				Eine Definition ist schwer, da es schon alleine schwer ist Intelligenz zu definieren. Die meisten verstehen
+				darunter Maschinen bzw. Programme, die menschenähnliche Intelligenz besitzen.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				WIE FUNKTIONIERT <set name="ai" /> #
+			</pattern>
+			<template>
+				Es gibt viele Ansätze, die das Erzeugen einer künstlichen Intelligenz verfolgen. Heutzutage ist hier besonders
+				"Machine Learning" ein sehr interessanter Begriff
+			</template>
+		</category>
+		<category>
+			<pattern>
+				WAS IST <iset words="PROGRAM Y, PROGRAM-Y, PROGRAMY" /> #
+			</pattern>
+			<template>
+				Program Y ist ein pythonbasiertes AIML 2.1 Framework. Es bietet viele Tools, um Chatbots wie mich zu bauen. :)
+			</template>
+		</category>
+		<category>
+			<pattern>
+				WER HAT AIML <iset words="ERSCHAFFEN, ERZEUGT, ENTWICKELT, GEMACHT" /> #
+			</pattern>
+			<template>
+				AIML wurde von Dr. Richard S. Wallace entwickelt.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				<set name="ai" /> IST GEFÄHRLICH #
+			</pattern>
+			<template>
+				Vielleicht, vielleicht aber auch nicht.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				WIE FUNKTIONIERT AIML #
+			</pattern>
+			<template>
+				Mit AIML lassen sich Nutzereingaben wie "Wie funktioniert AIML" in verschiedenen Categories abfangen.
+				Dazu kommen natürlich noch viele weitere Sprachfeatures.
+			</template>
+		</category>
+		<category>
+			<pattern>
+				WAS SIND CATEGORIES #
+			</pattern>
+			<template>
+				Eine Categorie besteht aus einem Pattern, welches die Nutzereingabe erkennt, und einem Template, welches die Antwort des Chatbots repräsentiert.
+			</template>
+		</category>
+	</topic>
+</aiml>

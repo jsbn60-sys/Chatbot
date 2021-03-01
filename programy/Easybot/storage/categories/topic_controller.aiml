@@ -1,75 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    TOPIC CONTROLLER FILE HANDLES THE TOPIC OF THE CONVERSATION
+    A VALID TOPIC MUST:
+    - have an entry in /set/topics.txt
+    - have an entry in /maps/topic2confirmation.txt
+    - have an entry in /maps/topic2next_topic.txt
+    - be handled by the random topic selection pattern below
+-->
 <aiml version="2.0">
-    <category>
-        <pattern>*</pattern>
-        <template>
-		    <condition name="topic">
-                <li value="*">
-                    <random>
-                        <li>Willst du über Sport reden ?<think><set name="topic_tmp">Sport</set></think></li>
-                        <li>Willst du über Autos reden ?<think><set name="topic_tmp">Autos</set></think></li>
-                        <li>Willst du über KI reden ?<think><set name="topic_tmp">KI</set></think></li>
-                    </random>
-                </li>
-                <li value="CHOOSING TOPIC">
-                    <random>
-                        <li>Willst du über Sport reden ?<think><set name="topic_tmp">Sport</set></think></li>
-                        <li>Willst du über Autos reden ?<think><set name="topic_tmp">Autos</set></think></li>
-                        <li>Willst du über KI reden ?<think><set name="topic_tmp">KI</set></think></li>
-                    </random>
-                </li>
-			    <li> Genug von <get name="topic" />, lass mal das Thema wechseln.
-                    <condition name="topic">
-                        <li value="Sport">Wie wäre es mit Autos ?<think><set name="topic_tmp">Autos</set></think></li>
-                        <li value="Autos">Wie wäre es mit KI ?<think><set name="topic_tmp">KI</set></think></li>
-                        <li value="KI">Wie wäre es mit Sport.<think><set name="topic_tmp">Sport</set></think></li>
-                    </condition>
-                </li>
-		    </condition>
-            <think><set name="topic">CHOOSING TOPIC</set></think>
-        </template>
-    </category>
-    <category>
-        <pattern>WORÜBER REDEN WIR #</pattern>
-        <template>
-            <condition name="topic">
-                <li value="CHOOSING TOPIC">Gerade über nichts, aber ich rede gerne über Sport, Autos oder KI.</li>
-                <li>Wir haben gerade über <get name="topic" /> geredet.</li>
-            </condition>
-        </template>
-    </category>
-    <category>
-        <pattern>LASS UNS ÜBER * REDEN #</pattern>
-        <template>
-            <think><set name="topic_tmp"><star /></set></think>
-                <condition name="topic_tmp">
-			        <li value="Sport">Okay, super ich mag Basketball.<think><set name="topic">Sport</set></think></li>
-                    <li value="Autos">Okay, super ich mag Sportwagen.<think><set name="topic">Autos</set></think></li>
-			        <li value="KI">Okay, super da kann ich bestimmt helfen.<think><set name="topic">KI</set></think></li>
-                    <li>In dem Thema bin ich nicht so stark, wie wäre es mit Sport, Autos oder KI ?</li>
-		        </condition>
-        </template>
-    </category>
-    <topic name="CHOOSING TOPIC">
-        <category>
-            <pattern><set name="confirmation" /> #</pattern>
-            <template>
-                <condition name="topic_tmp">
-			        <li value="Sport">Okay, super ich mag Basketball.<think><set name="topic">Sport</set></think></li>
-                    <li value="Autos">Okay, super ich mag Sportwagen.<think><set name="topic">Autos</set></think></li>
-			        <li value="KI">Okay, super da kann ich bestimmt helfen.<think><set name="topic">KI</set></think></li>
-		        </condition>
-            </template>
-        </category>
-        <category>
-            <pattern><set name="denial" /> #</pattern>
-            <template>
-                <condition name="topic_tmp">
-			        <li value="Sport">Okay, wie wäre es mit Autos ?<think><set name="topic_tmp">Autos</set></think></li>
-                    <li value="Autos">Okay, wie wäre es mit KI ?<think><set name="topic_tmp">KI</set></think></li>
-			        <li value="KI">Okay, wie wäre es mit Sport.<think><set name="topic_tmp">Sport</set></think></li>
-		        </condition>
-            </template>
-        </category>
-    </topic>
+	<category>
+        <!-- RANDOM TOPIC SELECTION, IF NO MATCHING PATTERN AT ALL -->
+		<pattern>
+			*
+		</pattern>
+		<template>
+			<condition name="topic">
+				<li value="*">
+					<random>
+						<li>
+							Willst du über Sport reden ?
+							<think>
+								<set name="topic_tmp">
+									Sport
+								</set>
+							</think>
+						</li>
+						<li>
+							Willst du über Autos reden ?
+							<think>
+								<set name="topic_tmp">
+									Autos
+								</set>
+							</think>
+						</li>
+						<li>
+							Willst du über KI reden ?
+							<think>
+								<set name="topic_tmp">
+									KI
+								</set>
+							</think>
+						</li>
+						<li>
+							Willst du über Filme reden ?
+							<think>
+								<set name="topic_tmp">
+									Filme
+								</set>
+							</think>
+						</li>
+					</random>
+				</li>
+				<li value="CHOOSING TOPIC">
+					<random>
+						<li>
+							Willst du über Sport reden ?
+							<think>
+								<set name="topic_tmp">
+									Sport
+								</set>
+							</think>
+						</li>
+						<li>
+							Willst du über Autos reden ?
+							<think>
+								<set name="topic_tmp">
+									Autos
+								</set>
+							</think>
+						</li>
+						<li>
+							Willst du über KI reden ?
+							<think>
+								<set name="topic_tmp">
+									KI
+								</set>
+							</think>
+						</li>
+						<li>
+							Willst du über Filme reden ?
+							<think>
+								<set name="topic_tmp">
+									Filme
+								</set>
+							</think>
+						</li>
+					</random>
+				</li>
+				<li>
+					Genug von <get name="topic" />, lass mal das Thema wechseln. Wie wäre es mit <map name="topic2next_topic"><get name="topic_tmp" /></map>?
+					<think>
+						<set name="topic_tmp">
+							<map name="topic2next_topic">
+								<get name="topic_tmp" />
+							</map>
+						</set>
+					</think>
+				</li>
+			</condition>
+			<think>
+				<set name="topic">
+					CHOOSING TOPIC
+				</set>
+			</think>
+		</template>
+	</category>
+	<category>
+		<pattern>
+			#<set name="topics" />#
+		</pattern>
+		<template>
+			Oh willst du über<star index="2" />reden ?
+			<think>
+				<set name="topic_tmp">
+					<star index="2" />
+				</set>
+			</think>
+		</template>
+	</category>
+	<topic name="CHOOSING TOPIC">
+		<category>
+			<pattern>
+				<set name="confirmation" />#
+			</pattern>
+			<template>
+				<map name="topic2confirmation">
+					<get name="topic_tmp" />
+				</map>
+				<think>
+					<set name="topic">
+						<get name="topic_tmp" />
+					</set>
+				</think>
+			</template>
+		</category>
+		<category>
+			<pattern>
+				<set name="denial" />#
+			</pattern>
+			<template>
+				Okay, wie wäre es mit <map name="topic2next_topic"><get name="topic_tmp" /></map>?
+				<think>
+					<set name="topic_tmp">
+						<map name="topic2next_topic">
+							<get name="topic_tmp" />
+						</map>
+					</set>
+				</think>
+			</template>
+		</category>
+	</topic>
 </aiml>
